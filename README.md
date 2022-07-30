@@ -8,7 +8,7 @@ Uses eye tracking, footpedals and keyboard macros. Originally made for injured w
 
 Avoid pressing more than one key at a time (chording) to reduce hand strain. 
 
-Press left footpedal to turns every key into a macro; All common shortcuts a single keypress.
+Left footpedal turns every key into a macro, so all common shortcuts are a single keypress.
 
 Keyboard layout is Colemak Mod DH rather than qwerty. I use a Kinesis Advantage 2 LF, a nice ergo keyboard.
 
