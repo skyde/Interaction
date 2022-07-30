@@ -1,28 +1,42 @@
-# Interaction
+# Goal
 
-Ergonomic computer control without taking hands off keyboard. 
+Ergonomic computer control without taking hands off the keyboard. 
 
-Uses eye tracking, footpedals and keyboard macros. Originally made for injured wrist, but is comfortable for day to day use.
+# Overview
+
+Using eye tracking, footpedals and keyboard macros created system for interaction with the computer.
+
+Originally made for injured wrist, but is very comfortable for day to day use since strain on the body is minimal.
+
+# Eye Gaze
+
+Eye tracking is used to control the mouse.
+
+A combination of eye and head movement results in quite accurate mouse control, enough to do a programming job professionally.
+
+It takes a bit of time to get used to controlling the mouse through eye gaze control, but after a few months of usage it's just as natural as using a mouse.
 
 # Keyboard
 
-Avoid pressing more than one key at a time (chording) to reduce hand strain. 
+One of the main sources of strain using a keyboard comes from pressing combinations of more than one key at a time (chording). 
 
-Left footpedal turns every key into a macro, so all common shortcuts are a single keypress.
-
-Keyboard layout is Colemak Mod DH rather than qwerty. I use a Kinesis Advantage 2 LF, a nice ergo keyboard.
+To reduce this all common shortcuts have been moved to single keypress macros. Pressing down the left footpedal turns every key on the keyboard into a macro.
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
 
-Colemak Mod DH:
+Keyboard layout is also Colemak Mod DH, further reducing hand strain.
 https://colemakmods.github.io/mod-dh/
+
+I also use a Kinesis Advantage 2 LF, a nice ergo keyboard.
 
 # Footpedals
 
-Left and right mouse clicks have been moved to the feet as the mouse is gaze based.
+Mouse input position is gaze based, so there need to be a way to click the mouse. Mouse clicks have been moved to the feet.
 
-Shift has also been moved to the feet to remove chording when typing.
+I experimented with using blinking and winking to click, but found this was too distracting and not accurate enough.
+
+Shift has also been moved to the feet as this further reduces 'chording' when typing.
 
 Left Foot:
 
@@ -35,12 +49,6 @@ Three Pedals. Left to right ordering:
 - Mouse Left Click
 - Mouse Right Click
 
-# Eye Gaze
-
-Pressing the toggle eye mouse enables eye tracking to control the mouse purely with eye and head movement. This a custom program I wrote which based on Tobii eye tracking.
-
 # Other
 
-I also have a trackball attached on top of my Kinesis keyboard for fine mouse control. It's slightly offset to the left as it's used only by the left had.
-
-Also have a vertical mouse since for some applications it's useful to have a regular mouse.
+I also have a trackball to the middle of my keyboard for fine mouse control, as well as a vertical mouse as a fallback when normal mouse input is required.
