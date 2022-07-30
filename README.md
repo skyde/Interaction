@@ -12,7 +12,7 @@ Avoids 'chords' (pressing more than one key at once) to reduces hand strain. Pre
 
 Keyboard layout is Colemak Mod DH, reduces hand fatigue compared to qwerty.
 
-I use a Kinesis Advantage 2 LF, a very nice ergo keyboard.
+I use a Kinesis Advantage 2 LF, a nice ergo keyboard.
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
