@@ -1,6 +1,6 @@
 # Goal
 
-Control computer without taking hands off of keyboard while being as ergonomic. 
+Control computer without taking hands off keyboard. 
 
 Uses a combination of eye tracking, footpedals and keyboard macros.
 
