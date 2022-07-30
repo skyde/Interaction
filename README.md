@@ -6,7 +6,7 @@ Uses eye tracking, footpedals and keyboard macros. Originally made for injured w
 
 # Keyboard
 
-Avoid key chording, pressing more than one key at a time to reduce hand strain. 
+Avoid pressing more than one key at a time (chording) to reduce hand strain. 
 
 Press left footpedal to turns every key into a macro; All common shortcuts a single keypress.
 
