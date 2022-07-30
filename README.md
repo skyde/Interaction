@@ -1,11 +1,16 @@
 # Interaction
 
-I have a custom input system setup into my computer using a combination of eye tracking, footpedals and macros on a keyboard. I injured my wrist for a while back and wanted to make an input system that put the least stress on my body.
+Goal is ability to control the computer fully without taking hands off of the keyboard, as well as being as ergonomic as possible. This was achieved for the most part, except for some use cases (ie. FPS games)
 
-Took about 3 months total of tweaking, but this was the result.
+The input system uses a combination of eye tracking, footpedals and keyboard macros.
 
-# Keyboard Layout
-Layout I use for my Kinesis keyboard
+Original impetus to create this was an injured wrist, but turns out it's also very comfortable for day to day use.
+
+# Keyboard
+
+One of the main things to improve ease of input is to avoid 'chords' when inputting into the computer.
+
+This is the layout I use for my Kinesis keyboard:
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
@@ -14,6 +19,9 @@ Main layout is Colemak Mod DH:
 https://colemakmods.github.io/mod-dh/
 
 # Footpedals
+
+Pressing down the left foot turns every key on the keyboard into a macro.
+
 
 Left Foot:
 
