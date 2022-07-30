@@ -28,7 +28,7 @@ Three Pedals. Left to right ordering:
 
 # Eye Gaze
 
-By pressing the toggle eye mouse key (alternate layout left thumb) I enable eye gaze based mouse movement. This enables program I made using Tobii eye tracking to control the mouse purely with eye and head movement.
+Pressing the toggle eye mouse enables a custom program which uses Tobii eye tracking to control the mouse purely with eye and head movement.
 
 # Other
 
