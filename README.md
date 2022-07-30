@@ -1,8 +1,8 @@
 # Goal
 
-Control computer without taking hands off keyboard. 
+Ergonomic computer control without taking hands off keyboard. 
 
-Uses a combination of eye tracking, footpedals and keyboard macros.
+Uses eye tracking, footpedals and keyboard macros.
 
 Was achieved for the most part except for some use cases (ie. FPS games). Originally made for injured wrist, but is comfortable for day to day use.
 
