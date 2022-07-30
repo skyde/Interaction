@@ -1,18 +1,18 @@
-# Interaction
+# Goal
 
-Goal is to control computer fully without taking hands off of the keyboard, while being as ergonomic as possible. This was achieved for the most part, except for some use cases (ie. FPS games)
+Control computer without taking hands off of keyboard while being as ergonomic. 
 
-The input system is a combination of eye tracking, footpedals and keyboard macros.
+Uses a combination of eye tracking, footpedals and keyboard macros.
 
-Originally made due to an injured wrist, but turns out is very comfortable for day to day use.
+Was achieved for the most part except for some use cases (ie. FPS games). Originally made for injured wrist, but is comfortable for day to day use.
 
 # Keyboard
 
-Avoids 'chords' (pressing more than one key at once) to reduces hand strain. Pressing the left footpedal turns every key into a macro, so all common shortcuts are a single keypress.
+Avoid key chording, pressing more than one key at a time to reduce hand strain. 
 
-Keyboard layout is Colemak Mod DH, reduces hand fatigue compared to qwerty.
+Press left footpedal to turns every key into a macro; All common shortcuts a single keypress.
 
-I use a Kinesis Advantage 2 LF, a nice ergo keyboard.
+Keyboard layout is Colemak Mod DH rather than qwerty. I use a Kinesis Advantage 2 LF, a nice ergo keyboard.
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
