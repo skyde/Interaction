@@ -2,7 +2,7 @@
 
 Goal is to control computer fully without taking hands off of the keyboard, while being as ergonomic as possible. This was achieved for the most part, except for some use cases (ie. FPS games)
 
-The input system ia combination of eye tracking, footpedals and keyboard macros.
+The input system is a combination of eye tracking, footpedals and keyboard macros.
 
 Originally made due to an injured wrist, but turns out it's also very comfortable for day to day use.
 
