@@ -8,11 +8,11 @@ Original impetus to make this was an injured wrist, but turns out it's also very
 
 # Keyboard
 
-One of the main things to improve ease of input is to avoid 'chords' when inputting into the computer. Pressing down the left footpedal turns every key on the keyboard into a macro, so all common shortcuts are available.
+Avoid 'chords' (pressing more than one key at once) greatly reduces strain using a keyboard. Pressing the left footpedal turns every key into a macro, making all common shortcuts a single keypress.
 
-I also use a keyboard layout called Colemak Mod DH, a more efficient keyboard layout compared to qwerty reducing hand fatigue.
+Keyboard layout is Colemak Mod DH, reducing hand fatigue compared to qwerty.
 
-I also use a Kinesis Advantage 2 LF keyboard. A very nice ergonomic keyboard.
+I use a Kinesis Advantage 2 LF, a very nice ergo keyboard.
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
