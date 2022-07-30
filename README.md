@@ -4,7 +4,7 @@ Goal is to control computer fully without taking hands off of the keyboard, whil
 
 The input system is a combination of eye tracking, footpedals and keyboard macros.
 
-Originally made due to an injured wrist, but turns out it's also very comfortable for day to day use.
+Originally made due to an injured wrist, but turns out is very comfortable for day to day use.
 
 # Keyboard
 
