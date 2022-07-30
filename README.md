@@ -1,4 +1,4 @@
-# Goal
+# Interaction
 
 Ergonomic computer control without taking hands off keyboard. 
 
