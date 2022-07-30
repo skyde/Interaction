@@ -4,24 +4,27 @@ Goal is ability to control the computer fully without taking hands off of the ke
 
 The input system uses a combination of eye tracking, footpedals and keyboard macros.
 
-Original impetus to create this was an injured wrist, but turns out it's also very comfortable for day to day use.
+Original impetus to make this was an injured wrist, but turns out it's also very comfortable for day to day use.
 
 # Keyboard
 
-One of the main things to improve ease of input is to avoid 'chords' when inputting into the computer.
+One of the main things to improve ease of input is to avoid 'chords' when inputting into the computer. Pressing down the left footpedal turns every key on the keyboard into a macro, so all common shortcuts are available.
 
-This is the layout I use for my Kinesis keyboard:
+I also use a keyboard layout called Colemak Mod DH, a more efficient keyboard layout compared to qwerty reducing hand fatigue.
+
+I also use a Kinesis Advantage 2 LF keyboard. A very nice ergonomic keyboard.
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
 
-Main layout is Colemak Mod DH:
+Colemak Mod DH:
 https://colemakmods.github.io/mod-dh/
 
 # Footpedals
 
-Pressing down the left foot turns every key on the keyboard into a macro.
+Left and right mouse clicks have been moved to the feet as the mouse is gaze based.
 
+Shift has also been moved to the feet to remove chording when typing.
 
 Left Foot:
 
