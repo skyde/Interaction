@@ -4,7 +4,7 @@ I have a custom input system setup into my computer using a combination of eye t
 
 Took about 3 months total of tweaking, but this was the result.
 
-# KeyboardLayout
+# Keyboard Layout
 Layout I use for my Kinesis keyboard
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
