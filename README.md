@@ -39,7 +39,7 @@ Three Pedals. Left to right ordering:
 
 # Eye Gaze
 
-Pressing the toggle eye mouse enables a custom program which uses Tobii eye tracking to control the mouse purely with eye and head movement.
+Pressing the toggle eye mouse enables eye tracking to control the mouse purely with eye and head movement. This a custom program I wrote which based on Tobii eye tracking.
 
 # Other
 
