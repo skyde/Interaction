@@ -10,11 +10,13 @@ Originally made for an injured wrist, but is very comfortable for day to day use
 
 # Eye Gaze
 
-Eye tracking is used to control the mouse.
+Eye tracking is used to control the mouse. A combination of eye and head movement results in quite accurate mouse control, enough to do a programming job professionally.
 
-A combination of eye and head movement results in quite accurate mouse control, enough to do a programming job professionally.
+There are existing programs online that can do this, but I wrote a custom one myself as I found what was out there could be improved upon. 
 
-It takes a bit of time to get used to controlling the mouse through eye gaze control, but after a few months of usage it's just as natural as using a mouse.
+Eye gaze is used to control the macro position of the mouse. Head horizontal and depth position are used for precise adjustments.
+
+It takes a bit of time to get used, but after a few months it's just as natural as a regular mouse.
 
 # Keyboard
 
