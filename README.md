@@ -2,9 +2,7 @@
 
 Ergonomic computer control without taking hands off keyboard. 
 
-Uses eye tracking, footpedals and keyboard macros.
-
-Originally made for injured wrist, but is comfortable for day to day use. Was achieved for the most part except for some use cases (ie. FPS games). 
+Uses eye tracking, footpedals and keyboard macros. Originally made for injured wrist, but is comfortable for day to day use.
 
 # Keyboard
 
