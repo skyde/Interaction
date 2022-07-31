@@ -1,10 +1,10 @@
 # Goal
 
-Ergonomic computer control without taking hands off the keyboard. 
+Ergonomic computer control with no mouse.
 
 # Overview
 
-Uses eye tracking, footpedals and keyboard macros (no mouse)
+Uses eye tracking, footpedals and keyboard macros.
 
 Originally made for an injured wrist, but it is comfortable for day to day use as well.
 
