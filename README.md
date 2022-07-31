@@ -4,7 +4,7 @@ Ergonomic computer control without taking hands off the keyboard.
 
 # Overview
 
-Using eye tracking, footpedals and keyboard macros created way to interact with the computer.
+Interact with computer using eye tracking, footpedals and keyboard macros.
 
 Originally made for an injured wrist, but use for day to day use since is very comfortable.
 
