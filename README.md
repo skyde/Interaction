@@ -6,7 +6,7 @@ Ergonomic computer control without taking hands off the keyboard.
 
 Using eye tracking, footpedals and keyboard macros created way to interact with the computer.
 
-Originally made for an injured wrist, but is very comfortable for day to day use since strain on the body is minimal.
+Originally made for an injured wrist, but use for day to day use since is very comfortable.
 
 # Eye Gaze
 
