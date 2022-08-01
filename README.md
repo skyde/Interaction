@@ -29,7 +29,7 @@ To reduce this all common shortcuts have been moved to single keypress macros. P
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
 
-Keyboard layout is also Colemak Mod DH, further reducing hand strain.
+Keyboard layout is also Colemak Mod DH, an alternative to qwerty.
 https://colemakmods.github.io/mod-dh/
 
 I also use a Kinesis Advantage 2 LF, a nice ergo keyboard.
