@@ -18,13 +18,11 @@ There are existing programs online that can do this, but I wrote a custom one my
 
 Eye gaze is used to control the macro position of the mouse. Head horizontal and depth position are used for precise adjustments.
 
-It takes a bit of time to get used, but after a few months it's just as natural as a regular mouse.
+It takes a bit of time to get used, but after a few months it's as natural as a regular mouse.
 
 # Keyboard
 
-One of the main sources of strain using a keyboard comes from pressing combinations of more than one key at a time (chording). 
-
-To reduce this all common shortcuts have been moved to single keypress macros. Pressing down the left footpedal turns every key on the keyboard into a macro.
+Pressing down the left footpedal turns every key on the keyboard into a macro. One of the main sources of strain using a keyboard comes from pressing combinations of more than one key at a time (chording). 
 
 ![kinesis layout](images/kinesis%20layout.png?raw=true)
 ![kinesis layout alternate](images/kinesis%20layout%20alternate.png?raw=true)
@@ -32,7 +30,7 @@ To reduce this all common shortcuts have been moved to single keypress macros. P
 Keyboard layout is also Colemak Mod DH, an alternative to qwerty.
 https://colemakmods.github.io/mod-dh/
 
-I also use a Kinesis Advantage 2 LF, a nice ergo keyboard.
+I also use a Kinesis Advantage 2 LF, a nice ergonomic keyboard.
 
 # Footpedals
 
