@@ -12,9 +12,7 @@ Originally made for an injured wrist, but it is comfortable for day to day use a
 
 Eye tracking controls the cursor. Uses combination of eye and head movement for accurate control. Am able to use for professional programming work without issues.
 
-(There are cases where I fall back to mouse usage. Testing a FPS game for example)
-
-There are existing programs online that can do this, but I wrote a custom one myself as I found what was out there could be improved upon. 
+There are existing programs that do this, but found issues with each one so wrote my own. 
 
 Eye gaze is used to control the macro position of the mouse. Head horizontal and depth position are used for precise adjustments.
 
