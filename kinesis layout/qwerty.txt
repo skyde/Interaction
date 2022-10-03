@@ -9,6 +9,7 @@
 [i]>[u]
 [o]>[y]
 [p]>[0]
+[caps]>[escape]
 [s]>[r]
 [d]>[s]
 [f]>[t]
@@ -83,6 +84,7 @@
 [kp-d]>[pup]
 [kp-f]>[pdown]
 [kp-g]>[enter]
+[kp-rwin]>[`]
 [kp-h]>[8]
 {kp-h}>{speed5}{-lshift}{8}{+lshift}
 [kp4]>[=]
