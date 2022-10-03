@@ -1,3 +1,6 @@
+[prtscr]>[mute]
+[scroll]>[vol-]
+[pause]>[vol+]
 [e]>[f]
 [r]>[p]
 [t]>[b]
@@ -5,8 +8,7 @@
 [u]>[l]
 [i]>[u]
 [o]>[y]
-[p]>[;]
-[caps]>[escape]
+[p]>[0]
 [s]>[r]
 [d]>[s]
 [f]>[t]
@@ -21,9 +23,10 @@
 {delete}>{speed5}{-lalt}{tab}{+lalt}
 [home]>[delete]
 [pup]>[e]
-{pup}>{speed9}{s}{k}{y}{.}{d}{e}{b}{r}{e}{u}{i}{l}{-lshift}{2}{+lshift}{u}{b}{i}{s}{o}{f}{t}{.}{c}{o}{m}
+{pup}>{speed5}{s}{k}{y}{.}{d}{e}{b}{r}{e}{u}{i}{l}{-lshift}{2}{+lshift}{u}{b}{i}{s}{o}{f}{t}{.}{c}{o}{m}
 [n]>[k]
 [m]>[h]
+[intl-\]>[1]
 [end]>[tab]
 [pdown]>[a]
 {pdown}>{speed5}{-rctrl}{a}{+rctrl}
@@ -38,7 +41,7 @@
 [kp-=]>[a]
 {kp-=}>{speed5}{-rctrl}{a}{+rctrl}
 [kp-1]>[f]
-{kp-1}>{speed8}{F7}{F6}
+{kp-1}>{speed8}{-lalt}{right}{+lalt}
 [kp-2]>[t]
 {kp-2}>{speed5}{-rctrl}{t}{+rctrl}
 [kp-3]>[g]
@@ -125,8 +128,8 @@
 {kp-left}>{speed5}{-lctrl}{c}{+lctrl}
 [kp-right]>[v]
 {kp-right}>{speed5}{-lctrl}{v}{+lctrl}
-[kp-end]>[s]
-{kp-end}>{speed5}{space}{-lshift}{;}{+lshift}{space}{-lshift}{0}{+lshift}
+[kp-end]>[f]
+{kp-end}>{speed8}{F7}{F6}
 [kp-pdown]>[s]
 {kp-pdown}>{speed5}{space}{-lshift}{;}{0}{+lshift}
 [kp-up]>[left]
