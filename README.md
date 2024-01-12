@@ -6,13 +6,13 @@ Ergonomic computer control with no mouse.
 
 Uses eye tracking, footpedals and keyboard macros.
 
-Originally made for an injured wrist, but it is comfortable for day to day use as well.
+Originally made for an injured wrist, but it is nice for day to day use as well.
 
 # Eye Gaze
 
-Eye tracking controls the cursor. Uses combination of eye and head movement for accurate control. Am able to use for professional programming work without issues.
+Eye tracking controls the cursor. Uses combination of eye and head movement for accurate control. Am able to use for programming work without issues.
 
-There are existing programs that do this, but found issues with each one so wrote my own. 
+There are existing programs that do this, but found I could make improvements so wrote my own. 
 
 Eye gaze is used to control the macro position of the mouse. Head horizontal and depth position are used for precise adjustments.
 
