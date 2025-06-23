@@ -52,3 +52,5 @@ Three Pedals. Left to right ordering:
 # Other
 
 I also have a trackball to the middle of my keyboard for fine mouse control, as well as a vertical mouse as a fallback when normal mouse input is required.
+
+in the kinesis layout folder qwerty.txt is for Windows & 1_querty.txt is for Mac.
