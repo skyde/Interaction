@@ -65,8 +65,8 @@
 [kp-hyphen]>[2]
 {kp-hyphen}>{speed5}{-shift}{4}{+shift}
 {kp-tab}>{speed5}{-rwin}{s}{+rwin}
-{kp-q}>{speed5}{-shift}{-rwin}{f}{+shift}{+rwin}
-{kp-w}>{speed5}{-lshift}{-rctrl}{f}{+lshift}{+rctrl}
+{kp-q}>{speed5}{-lshift}{-lwin}{f}{+lshift}{+lwin}
+{kp-w}>{speed5}{-lwin}{f}{+lwin}
 [kp-e]>[F15]
 {kp-r}>{speed5}{-ctrl}{up}{+ctrl}
 {kp-t}>{speed5}{-alt}{o}{+alt}
