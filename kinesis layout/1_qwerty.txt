@@ -68,7 +68,8 @@
 [kp-bspace]>[escape]
 [rctrl]>[rwin]
 [kp-rctrl]>[kp-rwin]
-{kp-rwin}{}>{speed5}{-rwin}{space}{+rwin}
+{rwin}>{speed5}{-rwin}{space}{+rwin}
+{kp-rwin}>{speed5}{-rwin}{space}{+rwin}
 [kp-enter]>[/]
 [kp0]>[C]
 [H]>[M]
@@ -107,7 +108,7 @@
 {kpmult}>{speed5}{-rshift}{2}{+rshift}
 {kp-hyphen}>{speed5}{-rshift}{4}{+rshift}
 {kp-tab}>{speed5}{-rwin}{s}{+rwin}
-{kp-q}>{speed5}{-rwin}{=}{+rwin}
+{kp-q}>{speed5}{-rwin}{-lshift}{f}{+lshift}{+rwin}
 {kp-w}>{speed5}{-rwin}{f}{+rwin}
 {kp-r}>{speed5}{-lctrl}{up}{+lctrl}
 {kp-t}>{speed5}{-lalt}{o}{+lalt}
