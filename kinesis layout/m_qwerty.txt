@@ -13,7 +13,7 @@
 [T]>[B]
 [R]>[P]
 [E]>[F]
-[kp-E]>{speed5}{-lctrl}{-lalt}{-lshift}{5}{+lctrl}{+lalt}{+lshift}
+{kp-e}>{speed5}{-lctrl}{-lalt}{-lshift}5{+lshift}{+lalt}{+lctrl}
 [kp-ralt]>[F2]
 [kp-lwin]>[F1]
 [kp-G]>[enter]
@@ -25,10 +25,10 @@
 [caps]>[escape]
 [kp-caps]>[escape]
 [B]>[V]
-[kp-B]>{speed5}{-lctrl}{-lalt}{-lshift}{6}{+lctrl}{+lalt}{+lshift}
+{kp-b}>{speed5}{-lctrl}{-lalt}{-lshift}6{+lshift}{+lalt}{+lctrl}
 [V]>[D]
-[kp-V]>{speed5}{-lctrl}{-lalt}{-lshift}{7}{+lctrl}{+lalt}{+lshift}
-[kp-C]>{speed5}{-lctrl}{-lalt}{-lshift}{8}{+lctrl}{+lalt}{+lshift}
+{kp-v}>{speed5}{-lctrl}{-lalt}{-lshift}7{+lshift}{+lalt}{+lctrl}
+{kp-c}>{speed5}{-lctrl}{-lalt}{-lshift}8{+lshift}{+lalt}{+lctrl}
 [up]>[down]
 [kp-up]>[left]
 [down]>[up]
@@ -49,7 +49,7 @@
 [home]>[delete]
 [kp-home]>[S]
 [end]>[tab]
-[kp-end]>{speed5}{-lctrl}{-lalt}{-lshift}{4}{+lctrl}{+lalt}{+lshift}
+{kp-end}>{speed5}{-lctrl}{-lalt}{-lshift}4{+lshift}{+lalt}{+lctrl}
 [Y]>[J]
 [kp-Y]>[Q]
 [U]>[L]
@@ -61,7 +61,7 @@
 [P]>[;]
 [kpmin]>[M]
 [delete]>[A]
-[kp-delete]>{speed5}{-lctrl}{-lalt}{-lshift}{1}{+lctrl}{+lalt}{+lshift}
+{kp-delete}>{speed5}{-lctrl}{-lalt}{-lshift}1{+lshift}{+lalt}{+lctrl}
 [kp-bspace]>[escape]
 [kp-enter]>[/]
 [kp0]>[C]
