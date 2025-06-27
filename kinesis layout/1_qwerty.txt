@@ -2,8 +2,8 @@
 [kpshft]>[F8]
 [calc]>[F7]
 [kp-5]>[S]
-[kp-4]>[F20]
-[kp-3]>[F18]
+[kp-4]>{speed5}{-lshift}{f9}{+lshift}
+[kp-3]>{speed5}{-lshift}{f8}{+lshift}
 [kp-2]>[T]
 [kp-1]>[F]
 [kp-=]>[M]
@@ -13,7 +13,7 @@
 [T]>[B]
 [R]>[P]
 [E]>[F]
-[kp-E]>[F13]
+[kp-E]>{speed5}{-lshift}{f2}{+lshift}
 [kp-ralt]>[F2]
 [kp-lwin]>[F1]
 [kp-G]>[enter]
@@ -25,10 +25,10 @@
 [caps]>[escape]
 [kp-caps]>[escape]
 [B]>[V]
-[kp-B]>[F14]
+[kp-B]>{speed5}{-lshift}{f3}{+lshift}
 [V]>[D]
-[kp-V]>[F16]
-[kp-C]>[F15]
+[kp-V]>{speed5}{-lshift}{f6}{+lshift}
+[kp-C]>{speed5}{-lshift}{f4}{+lshift}
 [up]>[down]
 [kp-up]>[left]
 [down]>[up]
@@ -49,7 +49,7 @@
 [home]>[delete]
 [kp-home]>[S]
 [end]>[tab]
-[kp-end]>[F17]
+[kp-end]>{speed5}{-lshift}{f7}{+lshift}
 [Y]>[J]
 [kp-Y]>[Q]
 [U]>[L]
@@ -61,7 +61,7 @@
 [P]>[;]
 [kpmin]>[M]
 [delete]>[A]
-[kp-delete]>[F21]
+[kp-delete]>{speed5}{-lshift}{f10}{+lshift}
 [kp-bspace]>[escape]
 [kp-enter]>[/]
 [kp0]>[C]
