@@ -69,7 +69,7 @@ take screenshot - F20
 toggle eye mouse - F21
 
 
-New key locations:
+## New key locations
 
 keyboard left backslash = backslash (just normal binding)
 page up = escape
@@ -79,3 +79,9 @@ footpedal down delete = toggle eye tracker
 Mac:
 Ctrl = Cmd (this is automatic)
 Windows Key = Alt
+
+## Layouts
+
+qwerty.txt = Windows
+1_qwerty.txt = Mac
+w_qwerty = Windows In Progress
