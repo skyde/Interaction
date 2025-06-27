@@ -67,3 +67,15 @@ stop build - F17
 goto line - F18
 take screenshot - F20
 toggle eye mouse - F21
+
+
+New key locations:
+
+keyboard left backslash = backslash (just normal binding)
+page up = escape
+footpedal down backspace = escape
+footpedal down delete = toggle eye tracker
+
+Mac:
+Ctrl = Cmd (this is automatic)
+Windows Key = Alt
