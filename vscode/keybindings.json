@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f13",
+        "command": "workbench.action.tasks.build",
+        "when": "taskCommandsRegistered"
+    },
+    {
+        "key": "f14",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "f15",
+        "command": "scrollLineUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "f16",
+        "command": "scrollLineDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "f17",
+        "command": "cmake.outline.stop"
+    },
+    {
+        "key": "f18",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "pagedown",
+        "command": "scrollPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pageup",
+        "command": "scrollPageUp",
+        "when": "textInputFocus"
+    },
+]
