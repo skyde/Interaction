@@ -102,7 +102,6 @@
 {kp-tab}>{speed5}{-rctrl}{s}{+rctrl}
 {kp-q}>{speed5}{-rctrl}{=}{+rctrl}
 {kp-w}>{speed5}{-rctrl}{f}{+rctrl}
-{kp-e}>{speed3}{lmouse}{F7}{F6}{F5}
 {kp-r}>{speed5}{-lwin}{tab}{+lwin}
 {kp-t}>{speed5}{-lctrl}{k}{o}{+lctrl}
 {kp-y}>{speed5}{-lshift}{'}{+lshift}
