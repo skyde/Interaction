@@ -1,0 +1,9 @@
+Here is a list of shortcuts for Visual Studio.
+
+It's hard to export the setting directly, but quick to reassign them so just do that.
+
+<F13> Debug.StartDebugging
+ Debug.StopDebugging
+<Ctrl-Shift-F> FastFind
+<F14> ReSharper.ReSharper_GotoFile
+

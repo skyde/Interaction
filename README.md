@@ -85,3 +85,25 @@ Windows Key = Alt
 qwerty.txt = Windows
 1_qwerty.txt = Mac
 w_qwerty = Windows In Progress
+
+## New bindings
+
+The F13+ ones have issues in Visual Studio, will try another
+
+build and run - F13
+find class - F14
+scroll up - F15
+scroll down - F16
+stop build - F17 // Issue in visual studio
+goto line - F18 // Issue in visual studio
+take screenshot - F20 // Issue in visual studio
+toggle eye moute - F21 // Issue in visual studio
+
+build and run - Shift F2
+find class - Shift F3
+scroll up - Shift F4
+scroll down - Shift F6
+stop build - Shift F7
+goto line - Shift F8
+take screenshot - Shift F9
+toggle eye mouse - Shift F10
