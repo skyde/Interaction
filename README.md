@@ -59,14 +59,14 @@ in the kinesis layout folder qwerty.txt is for Windows & 1_querty.txt is for Mac
 
 Starting a map to generic bindings.
 
-build and run - F13
-find class - F14
-scroll up - F15
-scroll down - F16
-stop build - F17
-goto line - F18
-take screenshot - F20
-toggle eye mouse - F21
+build and run - Shift F2
+find class - Shift F3
+scroll up - Shift F4
+scroll down - Shift F6
+stop build - Shift F7
+goto line - Shift F8
+take screenshot - Shift F9
+toggle eye mouse - Shift F10
 
 
 ## New key locations
@@ -90,14 +90,14 @@ w_qwerty = Windows In Progress
 
 The F13+ ones have issues in Visual Studio, will try another
 
-build and run - F13
-find class - F14
-scroll up - F15
-scroll down - F16
-stop build - F17 // Issue in visual studio
-goto line - F18 // Issue in visual studio
-take screenshot - F20 // Issue in visual studio
-toggle eye moute - F21 // Issue in visual studio
+build and run - Shift F2
+find class - Shift F3
+scroll up - Shift F4
+scroll down - Shift F6
+stop build - Shift F7 // Issue in visual studio
+goto line - Shift F8 // Issue in visual studio
+take screenshot - Shift F9 // Issue in visual studio
+toggle eye moute - Shift F10 // Issue in visual studio
 
 build and run - Shift F2
 find class - Shift F3

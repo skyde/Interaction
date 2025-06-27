@@ -135,3 +135,12 @@
 {kp-pdown}>{speed5}{space}{-lshift}{;}{0}{+lshift}
 {kp-up}>{speed5}{-lshift}{-rctrl}{tab}{+lshift}{+rctrl}
 {kp-down}>{speed5}{-lctrl}{tab}{+lctrl}
+{kp-4}>{speed5}{-lshift}{f9}{+lshift}
+{kp-3}>{speed5}{-lshift}{f8}{+lshift}
+{kp-E}>{speed5}{-lshift}{f2}{+lshift}
+{kp-B}>{speed5}{-lshift}{f3}{+lshift}
+{kp-V}>{speed5}{-lshift}{f6}{+lshift}
+{kp-C}>{speed5}{-lshift}{f4}{+lshift}
+{kp-end}>{speed5}{-lshift}{f7}{+lshift}
+{kp-delete}>{speed5}{-lshift}{f10}{+lshift}
+
