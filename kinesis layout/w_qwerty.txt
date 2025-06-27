@@ -2,8 +2,6 @@
 [kpshft]>[F8]
 [calc]>[F7]
 [kp-5]>[S]
-[kp-4]>[S]
-[kp-3]>[G]
 [kp-2]>[T]
 [kp-1]>[F]
 [kp-=]>[A]
@@ -54,7 +52,14 @@
 [P]>[;]
 [kpmin]>[M]
 [delete]>[A]
-{kp-delete}>{speed5}{-lctrl}{-lalt}{-lshift}{1}{+lctrl}{+lalt}{+lshift}
+[kp-4]>[F20]
+[kp-3]>[F18]
+[kp-E]>[F13]
+[kp-B]>[F14]
+[kp-V]>[F16]
+[kp-C]>[F15]
+[kp-end]>[F17]
+[kp-delete]>[F21]
 [kp-bspace]>[kp-escape]
 [kp-enter]>[/]
 [kp0]>[C]
@@ -87,8 +92,6 @@
 {kp-=}>{speed5}{-rctrl}{a}{+rctrl}
 {kp-1}>{speed8}{-lalt}{right}{+lalt}
 {kp-2}>{speed5}{-rctrl}{t}{+rctrl}
-{kp-3}>{speed5}{-rctrl}{g}{+rctrl}
-{kp-4}>{speed5}{-lshift}{-lwin}{s}{+lshift}{+lwin}
 {kp-5}>{speed5}{-lctrl}{s}{+lctrl}
 {kp-6}>{speed5}{-lshift}{6}{+lshift}
 {numlk}>{speed5}{-rshift}{3}{+rshift}
@@ -99,7 +102,7 @@
 {kp-tab}>{speed5}{-rctrl}{s}{+rctrl}
 {kp-q}>{speed5}{-rctrl}{=}{+rctrl}
 {kp-w}>{speed5}{-rctrl}{f}{+rctrl}
-{kp-e}>{speed5}{-lctrl}{-lalt}{-lshift}{5}{+lctrl}{+lalt}{+lshift}
+{kp-e}>{speed3}{lmouse}{F7}{F6}{F5}
 {kp-r}>{speed5}{-lwin}{tab}{+lwin}
 {kp-t}>{speed5}{-lctrl}{k}{o}{+lctrl}
 {kp-y}>{speed5}{-lshift}{'}{+lshift}
@@ -117,9 +120,6 @@
 {kp-'}>{speed5}{-lshift}{\}{+lshift}
 {kp-z}>{speed5}{-lwin}{d}{+lwin}
 {kp-x}>{speed6}{-lctrl}{z}{+lctrl}
-{kp-c}>{speed5}{-lctrl}{-lalt}{-lshift}{8}{+lctrl}{+lalt}{+lshift}
-{kp-v}>{speed5}{-lctrl}{-lalt}{-lshift}{7}{+lctrl}{+lalt}{+lshift}
-{kp-b}>{speed5}{-lctrl}{-lalt}{-lshift}{6}{+lctrl}{+lalt}{+lshift}
 {kp-home}>{speed5}{space}{-lshift}{;}{+lshift}{-rshift}{p}{+rshift}
 {kp-pup}>{speed5}{space}{-lshift}{;}{+lshift}{space}{-lshift}{d}{+lshift}
 {kp-enter}>{speed5}{-lshift}{/}{+lshift}
@@ -133,7 +133,6 @@
 {kp-insert}>{speed5}{-lctrl}{x}{+lctrl}
 {kp-left}>{speed5}{-lctrl}{c}{+lctrl}
 {kp-right}>{speed5}{-lctrl}{v}{+lctrl}
-{kp-end}>{speed5}{-lctrl}{-lalt}{-lshift}{4}{+lctrl}{+lalt}{+lshift}
 {kp-pdown}>{speed5}{space}{-lshift}{;}{0}{+lshift}
 {kp-up}>{speed5}{-lshift}{-rctrl}{tab}{+lshift}{+rctrl}
 {kp-down}>{speed5}{-lctrl}{tab}{+lctrl}
