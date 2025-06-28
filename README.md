@@ -87,7 +87,7 @@ goto definition - Shift F8
 take screenshot - Shift F9
 toggle eye mouse - Shift F10
 
-#Mac
+# Mac
 
 Using 'Alt Tab' app to have nice window switching with keyboard control.
 
