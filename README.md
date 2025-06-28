@@ -86,8 +86,7 @@ stop build - Shift F7
 goto definition - Shift F8
 take screenshot - Shift F9
 toggle eye mouse - Shift F10
-
-TODO: toggle header could should use Shift F11 (currently set to Alt-O)
+toggle header - Shift F11
 
 # Mac
 
