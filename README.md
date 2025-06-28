@@ -86,3 +86,11 @@ stop build - Shift F7
 goto definition - Shift F8
 take screenshot - Shift F9
 toggle eye mouse - Shift F10
+
+#Mac
+
+Using 'Alt Tab' app to have nice window switching with keyboard control.
+
+Open with kp-e on the keyboard. Press space to select the highlighted window.
+
+brew install --cask alt-tab
