@@ -1,0 +1,24 @@
+{
+    // Vim
+    "vim.useSystemClipboard": true,
+
+    // UI
+    "window.zoomLevel": 1,
+
+    // Cpp
+    "C_Cpp.intelliSenseEngine": "disabled",
+    
+    // Copilot
+    "github.copilot.chat.agent.thinkingTool": true,
+    "chat.agent.enabled": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "chat.agent.maxRequests": 10000,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "chat.editing.confirmEditRequestRetry": false,
+
+    // Testing 
+    "testing.automaticallyOpenPeekViewDuringAutoRun": true,
+
+    // Security
+    "security.workspace.trust.untrustedFiles": "open",
+}
