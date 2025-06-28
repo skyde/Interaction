@@ -1,14 +1,14 @@
 {
-    // Vim
+    // Use system clipboard in Vim extension
     "vim.useSystemClipboard": true,
 
-    // UI
+    // UI zoom level similar to Neovim's interface
     "window.zoomLevel": 1,
 
-    // Cpp
+    // Disable C/C++ Intellisense to match clangd usage in Neovim
     "C_Cpp.intelliSenseEngine": "disabled",
-    
-    // Copilot
+
+    // Copilot Chat configuration
     "github.copilot.chat.agent.thinkingTool": true,
     "chat.agent.enabled": true,
     "github.copilot.chat.codesearch.enabled": true,
@@ -16,9 +16,30 @@
     "chat.editing.confirmEditRequestRemoval": false,
     "chat.editing.confirmEditRequestRetry": false,
 
-    // Testing 
+    // Automatically open peek view for test failures
     "testing.automaticallyOpenPeekViewDuringAutoRun": true,
 
-    // Security
+    // Always open files from untrusted workspaces
     "security.workspace.trust.untrustedFiles": "open",
+
+    // ----- Additional settings inspired by Neovim configuration -----
+
+    // Map "jk" or "kk" quickly in insert mode to escape (better-escape.nvim)
+    "vim.insertModeKeyBindings": [
+        { "before": ["j", "k"], "after": ["<Esc>"] },
+        { "before": ["k", "k"], "after": ["<Esc>"] }
+    ],
+
+    // Increase terminal scrollback similar to using a terminal split in Neovim
+    "terminal.integrated.scrollback": 10000,
+
+    // Custom scroll mappings to mirror Neovim keybinds
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["s", "t"], "after": ["<C-d>"] },
+        { "before": ["t", "s"], "after": ["<C-u>"] },
+        { "before": ["t", "t"], "after": ["<C-f>"] },
+        { "before": ["s", "s"], "after": ["<C-b>"] },
+        { "before": ["<C-u>"], "after": ["16k"] },
+        { "before": ["<C-d>"], "after": ["16j"] }
+    ]
 }
