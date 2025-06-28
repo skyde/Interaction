@@ -91,6 +91,6 @@ toggle eye mouse - Shift F10
 
 Using 'Alt Tab' app to have nice window switching with keyboard control.
 
-Open with kp-e on the keyboard. Navigate with arrow keys and press space to select the highlighted window.
+Open with kp-r on the keyboard. Navigate with arrow keys and press space to select the highlighted window.
 
 brew install --cask alt-tab
