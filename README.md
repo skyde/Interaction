@@ -83,6 +83,6 @@ find class - Shift F3
 scroll up - Shift F4
 scroll down - Shift F6
 stop build - Shift F7
-goto line - Shift F8
+goto definition - Shift F8
 take screenshot - Shift F9
 toggle eye mouse - Shift F10
