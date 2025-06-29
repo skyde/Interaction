@@ -75,7 +75,6 @@
 [L]>[I]
 [kp6]>[4]
 [;]>[O]
-[rwin]>[ralt]
 [kp-rwin]>[kp-ralt]
 [pup]>[escape]
 [kp-pup]>[S]
