@@ -1,6 +1,6 @@
 Here is a list of shortcuts for Visual Studio.
 
-It's hard to export the setting directly, but quick to reassign them so just do that.
+It's hard to export the settings directly, but somewhat quick to reassign them so just do that.
 
 <Shift-F2> Debug.StartDebugging
  Debug.StopDebugging
