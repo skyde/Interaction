@@ -84,7 +84,7 @@ scroll up - Shift F4
 scroll down - Shift F6
 stop build - Shift F7
 goto definition - Shift F8
-take screenshot - Cmd Shift 4
+toggle spotlight search - Shift F9
 toggle eye mouse - Shift F10
 toggle comment - Shift F11
 
@@ -100,6 +100,10 @@ Open with kp-r on the keyboard. Navigate with arrow keys and press space to sele
 
 brew install --cask alt-tab
 
-## Karabiner Element
+## Better Touch Tool
 
-Custom shortcut where tapping Cmd by itself opens spotlight search.
+Custom shortcut pressing Cmd-Space opens spotlight search, since the normal shorcut is taken by togge spotlight search.
+
+## Custom Settings
+
+defaults write -g ApplePressAndHoldEnabled -bool false
