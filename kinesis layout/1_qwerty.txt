@@ -38,7 +38,6 @@
 [prtscr]>[mute]
 [kp-right]>[V]
 [kp-left]>[C]
-[intl-\]>[rwin]
 [kp-insert]>[X]
 [kp-`]>[delete]
 [numlk]>[H]
