@@ -84,7 +84,7 @@ scroll up - Shift F4
 scroll down - Shift F6
 stop build - Shift F7
 goto definition - Shift F8
-take screenshot - Shift F9
+take screenshot - Cmd Shift 4
 toggle eye mouse - Shift F10
 toggle comment - Shift F11
 
