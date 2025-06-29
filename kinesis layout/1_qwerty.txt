@@ -106,7 +106,7 @@
 {kp-q}>{speed5}{-rwin}{-lshift}{f}{+lshift}{+rwin}
 {kp-w}>{speed5}{-rwin}{f}{+rwin}
 {kp-r}>{speed5}{-lctrl}{up}{+lctrl}
-{kp-t}>{speed5}{-lshift}{f11}{+lshift}
+{kp-t}>{speed5}{-lalt}{o}{+lalt}
 {kp-y}>{speed5}{-lshift}{'}{+lshift}
 {kp7}>{speed5}{-rshift}{=}{+rshift}
 {kp8}>{speed5}{hyphen}
