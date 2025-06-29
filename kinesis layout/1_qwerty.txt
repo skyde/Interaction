@@ -139,7 +139,7 @@
 {kp-up}>{-kp-lwin}{-kp-lshift}{obrack}{+kp-lwin}{+kp-lshift}
 {kp-down}>{-lwin}{-lshift}{cbrack}{+lshift}{+lwin}
 {f11}>{f11}
-{escape}>{f11}
+{intl-\}>{speed5}{-lwin}{space}{+lwin}
 {kp-4}>{speed5}{-lshift}{f9}{+lshift}
 {kp-3}>{speed5}{-lshift}{f8}{+lshift}
 {kp-E}>{speed5}{-lshift}{f2}{+lshift}
