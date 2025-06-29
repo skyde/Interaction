@@ -109,7 +109,7 @@
 {kp8}>{speed5}{hyphen}
 {kp9}>{speed5}{-rshift}{1}{+rshift}
 {kpmin}>{speed5}{-rshift}{5}{+rshift}
-{kp-a}>{speed8}{-lctrl}{/}{+lctrl}
+{kp-a}>{speed5}{-lshift}{f11}{+lshift}
 {kp-s}>{speed6}{-lalt}{left}{+lalt}
 {kp-h}>{speed5}{-lshift}{8}{+lshift}
 {kp4}>{speed5}{=}

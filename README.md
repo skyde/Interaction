@@ -67,14 +67,14 @@ footpedal down backspace = escape
 footpedal down delete = toggle eye tracker
 
 Mac:
-Ctrl = Cmd (this is automatic)
-Windows Key = Alt
+Ctrl = Cmd? Not sure if I should do this (currently Ctrl is Ctrl)
+Windows Key = Alt (Meta)
 
 ## Layouts
 
 qwerty.txt = Windows
 1_qwerty.txt = Mac
-w_qwerty = Windows In Progress
+w_qwerty = Windows In Progress (will swap soon)
 
 ## New bindings
 
@@ -86,10 +86,11 @@ stop build - Shift F7
 goto definition - Shift F8
 take screenshot - Shift F9
 toggle eye mouse - Shift F10
-
-TODO: toggle header could should use Shift F11 (currently set to Alt-O)
+toggle comment - Shift F11
 
 # Mac
+
+Note that you should use the Mac 1_qwerty.txt keybinding with the Kinesis Advantage 2 keyboard in 'Windows' mode as the keys have been manually translated already.
 
 Using 'Alt Tab' app to have nice window switching with keyboard control.
 
