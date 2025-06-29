@@ -97,5 +97,3 @@ Using 'Alt Tab' app to have nice window switching with keyboard control.
 Open with kp-r on the keyboard. Navigate with arrow keys and press space to select the highlighted window.
 
 brew install --cask alt-tab
-
-TODO: On the mac layout the | key is not working for the key beside the semicolon key
