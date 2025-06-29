@@ -92,8 +92,14 @@ toggle comment - Shift F11
 
 Note that you should use the Mac 1_qwerty.txt keybinding with the Kinesis Advantage 2 keyboard in 'Windows' mode as the keys have been manually translated already.
 
+## Custom Alt Tab app
+
 Using 'Alt Tab' app to have nice window switching with keyboard control.
 
 Open with kp-r on the keyboard. Navigate with arrow keys and press space to select the highlighted window.
 
 brew install --cask alt-tab
+
+## Karabiner Element
+
+Custom shortcut where tapping Cmd by itself opens spotlight search.
