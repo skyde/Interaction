@@ -2,7 +2,7 @@
   "title": "Tap ⌘ for Spotlight (pure tap only)",
   "rules": [
     {
-      "description": "If you tap ⌘ alone, send ⌘+Space; otherwise behave normally",
+      "description": "Tap left OR right ⌘ alone for Spotlight; hold or combo behaves normally",
       "manipulators": [
         {
           "type": "basic",
@@ -18,6 +18,26 @@
           ],
           "to_if_held_down": [
             { "key_code": "left_command" }
+          ],
+          "parameters": {
+            "basic.to_if_alone_timeout_milliseconds": 200,
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [
+            { "key_code": "right_command", "lazy": true }
+          ],
+          "to_if_alone": [
+            { "key_code": "spacebar", "modifiers": ["left_command"] }
+          ],
+          "to_if_held_down": [
+            { "key_code": "right_command" }
           ],
           "parameters": {
             "basic.to_if_alone_timeout_milliseconds": 200,
