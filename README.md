@@ -100,9 +100,9 @@ Open with kp-r on the keyboard. Navigate with arrow keys and press space to sele
 
 brew install --cask alt-tab
 
-## Better Touch Tool
+## Hammerspoon
 
-Custom shortcut pressing Cmd-Space opens spotlight search, since the normal shorcut is taken by togge spotlight search.
+Custom shortcut pressing Shift F9 opens spotlight search, since we don't want to change the original shortcut.
 
 ## Custom Settings
 
