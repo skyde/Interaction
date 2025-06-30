@@ -1,0 +1,91 @@
+" ┌────────────────────────────────────────────────────────────┐
+" │        _vsvimrc — LazyVim-style for Visual Studio + C++    │
+" └────────────────────────────────────────────────────────────┘
+
+" Leader key setup
+let mapleader = " "
+let maplocalleader = ","
+
+" ── User Interface ─────────────────────────────────────────────
+set number
+set relativenumber
+set cursorline
+set scrolloff=5
+
+" Search
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" ── Escape from insert mode with 'jk' or 'kk' ──────────────────
+inoremap jk <Esc>
+inoremap kk <Esc>
+
+" ── Smart scrolling — mapped to mimic LazyVim-style jumps ──────
+nnoremap st <C-d>         " scroll down
+nnoremap ts <C-u>         " scroll up
+nnoremap tt <C-f>         " page down
+nnoremap ss <C-b>         " page up
+nnoremap <C-u> 16k
+nnoremap <C-d> 16j
+
+" ── Visual-mode reselect indenting ─────────────────────────────
+vnoremap < <gv
+vnoremap > >gv
+
+" ── Window/tab navigation ──────────────────────────────────────
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <S-l> :vsc Window.NextTab<CR>
+nnoremap <S-h> :vsc Window.PreviousTab<CR>
+nnoremap <leader><leader> :b#<CR>
+
+" ── File ops ───────────────────────────────────────────────────
+nnoremap <leader>s :vsc File.SaveAll<CR>
+nnoremap <leader>x :vsc File.Close<CR>
+nnoremap <leader>ff :vsc File.OpenFile<CR>
+nnoremap <leader>fs :vsc File.SaveAll<CR>
+nnoremap <leader>q  :vsc File.Close<CR>
+
+" ── Solution Explorer and Terminal ─────────────────────────────
+nnoremap <leader>se :vsc View.SolutionExplorer<CR>
+nnoremap <leader>t  :vsc View.Terminal<CR>
+
+" ── Code navigation ────────────────────────────────────────────
+nnoremap gd :vsc Edit.GoToDefinition<CR>
+nnoremap gi :vsc Edit.GoToImplementation<CR>
+nnoremap gr :vsc Edit.FindAllReferences<CR>
+nnoremap gk :vsc Edit.PreviousMethod<CR>
+nnoremap gj :vsc Edit.NextMethod<CR>
+
+" ── Code actions & refactoring ─────────────────────────────────
+nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
+nnoremap <leader>r :vsc Refactor.Rename<CR>
+nnoremap <leader>F :vsc Edit.FormatDocument<CR>
+
+" ── Commenting ─────────────────────────────────────────────────
+nnoremap gc :vsc Edit.CommentSelection<CR>
+nnoremap gu :vsc Edit.UncommentSelection<CR>
+
+" ── Error & diagnostics navigation ─────────────────────────────
+nnoremap <leader>ee :vsc View.ErrorList<CR>
+nnoremap <leader>en :vsc View.NextError<CR>
+nnoremap <leader>ep :vsc View.PreviousError<CR>
+
+" ── Split/Tab Group management ────────────────────────────────
+nnoremap <leader>wn :vsc Window.NextTab<CR>
+nnoremap <leader>wp :vsc Window.PreviousTab<CR>
+nnoremap <leader>sv :vsc Window.NewVerticalTabGroup<CR>
+nnoremap <leader>sm :vsc Window.MoveToMainDocumentGroup<CR>
+nnoremap <leader>wo :vsc File.CloseAllButThis<CR>
+
+" ── Clipboard and backspace support ───────────────────────────
+set clipboard=unnamed
+set backspace=indent,eol,start
+
+" ── Done ───────────────────────────────────────────────────────
+" Save as _vsvimrc in your user folder. Restart VS to load.
+
