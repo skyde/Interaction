@@ -18,15 +18,11 @@ set smartcase
 set incsearch
 set hlsearch
 
-" ── Escape from insert mode with 'jk' or 'kk' ──────────────────
-inoremap jk <Esc>
-inoremap kk <Esc>
-
-" ── Smart scrolling — mapped to mimic LazyVim-style jumps ──────
-nnoremap st <C-d>         " scroll down
-nnoremap ts <C-u>         " scroll up
-nnoremap tt <C-f>         " page down
-nnoremap ss <C-b>         " page up
+" ── Easy scrolling - large & fine detail ──────
+nnoremap st <C-d>
+nnoremap ts <C-u>
+nnoremap tt <C-f>
+nnoremap ss <C-b>
 nnoremap <C-u> 16k
 nnoremap <C-d> 16j
 
@@ -41,18 +37,18 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <S-l> :vsc Window.NextTab<CR>
 nnoremap <S-h> :vsc Window.PreviousTab<CR>
-nnoremap <leader><leader> :b#<CR>
+nnoremap <leader><leader> :vsc ReSharper.ReSharper_GotoFile<CR>
 
-" ── File ops ───────────────────────────────────────────────────
-nnoremap <leader>s :vsc File.SaveAll<CR>
-nnoremap <leader>x :vsc File.Close<CR>
-nnoremap <leader>ff :vsc File.OpenFile<CR>
-nnoremap <leader>fs :vsc File.SaveAll<CR>
-nnoremap <leader>q  :vsc File.Close<CR>
+" " ── File ops ───────────────────────────────────────────────────
+" nnoremap <leader>s :vsc File.SaveAll<CR>
+" nnoremap <leader>x :vsc File.Close<CR>
+" nnoremap <leader>ff :vsc File.OpenFile<CR>
+" nnoremap <leader>fs :vsc File.SaveAll<CR>
+" nnoremap <leader>q  :vsc File.Close<CR>
 
 " ── Solution Explorer and Terminal ─────────────────────────────
-nnoremap <leader>se :vsc View.SolutionExplorer<CR>
-nnoremap <leader>t  :vsc View.Terminal<CR>
+nnoremap <leader>e :vsc View.SolutionExplorer<CR>
+nnoremap <leader>t :vsc View.Terminal<CR>
 
 " ── Code navigation ────────────────────────────────────────────
 nnoremap gd :vsc Edit.GoToDefinition<CR>
@@ -63,12 +59,10 @@ nnoremap gj :vsc Edit.NextMethod<CR>
 
 " ── Code actions & refactoring ─────────────────────────────────
 nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
-nnoremap <leader>r :vsc Refactor.Rename<CR>
-nnoremap <leader>F :vsc Edit.FormatDocument<CR>
+nnoremap <leader>cr :vsc Refactor.Rename<CR>
 
 " ── Commenting ─────────────────────────────────────────────────
-nnoremap gc :vsc Edit.CommentSelection<CR>
-nnoremap gu :vsc Edit.UncommentSelection<CR>
+nnoremap gc :vsc Edit.ToggleComment<CR>
 
 " ── Error & diagnostics navigation ─────────────────────────────
 nnoremap <leader>ee :vsc View.ErrorList<CR>
@@ -76,11 +70,15 @@ nnoremap <leader>en :vsc View.NextError<CR>
 nnoremap <leader>ep :vsc View.PreviousError<CR>
 
 " ── Split/Tab Group management ────────────────────────────────
-nnoremap <leader>wn :vsc Window.NextTab<CR>
-nnoremap <leader>wp :vsc Window.PreviousTab<CR>
-nnoremap <leader>sv :vsc Window.NewVerticalTabGroup<CR>
-nnoremap <leader>sm :vsc Window.MoveToMainDocumentGroup<CR>
-nnoremap <leader>wo :vsc File.CloseAllButThis<CR>
+nnoremap ]b :vsc Window.NextTab<CR>
+nnoremap [b :vsc Window.PreviousTab<CR>
+nnoremap <leader>bd :vsc Window.CloseDocumentWindow<CR>
+nnoremap <leader>bp :vsc Window.PinTab<CR>
+nnoremap <leader>bP :vsc Window.CloseAllButPinned<CR>
+
+" nnoremap <leader>ws :vsc Window.NewVerticalTabGroup<CR>
+" nnoremap <leader>wv :vsc Window.Split<CR>
+" nnoremap <leader>wr :vsc Window.RemoveSplit<CR>
 
 " ── Clipboard and backspace support ───────────────────────────
 set clipboard=unnamed
@@ -88,4 +86,3 @@ set backspace=indent,eol,start
 
 " ── Done ───────────────────────────────────────────────────────
 " Save as _vsvimrc in your user folder. Restart VS to load.
-
