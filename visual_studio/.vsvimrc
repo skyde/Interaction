@@ -75,6 +75,10 @@ nnoremap gj :vsc Edit.NextMethod<CR>
 nnoremap gu :vsc ReSharper.ReSharper_GotoUsage<CR>
 nnoremap gc :vsc Edit.ToggleComment<CR>
 
+" ── Git (Version Control) ────────────────────────────────────────────
+nnoremap <leader>gd :vsc P4EditVS.Diff<CR>
+nnoremap <leader>go :vsc P4EditVS.OpenInP4V<CR>
+
 " ── Code ─────────────────────────────────
 nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
 nnoremap <leader>cR :vsc File.Rename<CR>
