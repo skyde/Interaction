@@ -22,6 +22,19 @@ set hlsearch
 " ── Reload vimrc ───────────────────────────────────────────────
 map zl :so ~/.vsvimrc<CR>
 
+" Unbinds the Space key as it's used as the leader key
+nnoremap <Space> <NOP>
+
+" `Esc` - Remove search highlights
+nnoremap <Esc> :nohl<CR>
+
+" Improves navigation when wrapping
+" by swapping `j` with `gj` and `k` with `gk`
+nnoremap j gj
+nnoremap gj j
+nnoremap k gk
+nnoremap gk k
+
 " ── Easy scrolling - large & fine detail ──────
 nnoremap st <C-d>
 nnoremap ts <C-u>
@@ -53,19 +66,20 @@ nnoremap <leader>fs :vsc File.SaveAll<CR>
 nnoremap <leader>e :vsc View.SolutionExplorer<CR>
 nnoremap <leader>t :vsc View.Terminal<CR>
 
-" ── Code navigation ────────────────────────────────────────────
+" ── Goto ────────────────────────────────────────────
 nnoremap gd :vsc Edit.GoToDefinition<CR>
 nnoremap gi :vsc Edit.GoToImplementation<CR>
 nnoremap gr :vsc Edit.FindAllReferences<CR>
 nnoremap gk :vsc Edit.PreviousMethod<CR>
 nnoremap gj :vsc Edit.NextMethod<CR>
-
-" ── Code actions & refactoring ─────────────────────────────────
-nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
-nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
-
-" ── Commenting ─────────────────────────────────────────────────
+nnoremap gu :vsc ReSharper.ReSharper_GotoUsage<CR>
 nnoremap gc :vsc Edit.ToggleComment<CR>
+
+" ── Code ─────────────────────────────────
+nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
+nnoremap <leader>cR :vsc File.Rename<CR>
+
+nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
 
 " ── Error & diagnostics navigation ─────────────────────────────
 nnoremap <leader>ee :vsc View.ErrorList<CR>
@@ -119,8 +133,10 @@ nmap s gS:vsc Tools.InvokePeasyMotionTwoCharJump<CR>
 
 
 " ── Resharper ───────────────────────────────────────────────
-map ] :vsc ReSharper.ReSharper_GotoNextMethod<CR>
-map [ :vsc ReSharper.ReSharper_GotoPrevMethod<CR>
+" `]` - Navigate to the next member / type / tag
+" `[` - Navigate to the previous member / type / tag
+noremap ] :vsc ReSharper.ReSharper_GotoNextMember<CR>
+noremap [ :vsc ReSharper.ReSharper_GotoPrevMember<CR>
 
 map <Space>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
 map <Space>td :vsc ReSharper.ReSharper_UnitTestDebugContext<CR>
@@ -142,3 +158,28 @@ map <Space>ns :vsc Debug.StopDebugging<CR>
 " ── Shortcuts ─────────────────────────────
 
 map <Space>sg :vsc Tools.FastFind.OpenDocked<CR>
+
+
+" `<leader> + w(indow) + p(in)` - Toggle the pin status of the document
+" `<leader> + w(indows) + c(lose) + a(ll)` - Close all unpinned documents
+noremap <leader>wp :vsc Window.PinTab<CR>
+noremap <leader>wP :vsc Window.CloseAllButPinned<CR>
+
+" `<leader> + b + b(reakpoint)` - Toggle a breakpoint at the current line
+" `<leader> + b(reakpoints) + d(isable)` - Disable all breakpoins
+" `<leader> + b(reakpoints) + e(nable)` - Enable all breakpoints
+" `<leader> + b(reakpoints) + r(emove)` - Remove all breakpoints
+" `<leader> + b(reakpoints) + a(ll)` - Show the breakpoints list
+noremap <leader>bb :vsc Debug.ToggleBreakpoint<CR>
+noremap <leader>bd :vsc Debug.DisableAllBreakpoints<CR>
+noremap <leader>be :vsc Debug.EnableAllBreakpoints<CR>
+noremap <leader>br :vsc Debug.DeleteAllBreakpoints<CR>
+noremap <leader>ba :vsc Debug.Breakpoints<CR>
+
+" `<leader> + q(ick) + w(atch)` - Show the QuickWatch dialog box
+" `<Ctrl> + <Up>` - Move execution pointer to the selected statement
+nnoremap <Leader>qw :vsc Debug.QuickWatch<CR>
+nnoremap <C-Up> :vsc Debug.SetNextStatement<CR>
+nnoremap <C-Down> :vsc Debug.StepOver<CR>
+nnoremap <C-Right> :vsc Debug.StepInto<CR>
+nnoremap <C-Left> :vsc Debug.StepOut<CR>
