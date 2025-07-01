@@ -107,3 +107,12 @@ Custom shortcut pressing Shift F9 opens spotlight search, since we don't want to
 ## Custom Settings
 
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Windows
+
+For Visual Studio use VSVim with the provided vsvimrc
+
+Also use the plugin 'Peasy Motion' with the following settings:
+
+Allowed jump label characters: tsraneiodhgmplfuc,bjvkwyx.q;z/
+(note this is optimized for Colmak Mod DH)
