@@ -35,6 +35,9 @@ nnoremap gj j
 nnoremap k gk
 nnoremap gk k
 
+nnoremap <Up> k
+nnoremap <Down> j
+
 " ── Easy scrolling - large & fine detail ──────
 nnoremap st <C-d>
 nnoremap ts <C-u>
