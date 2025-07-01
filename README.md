@@ -110,9 +110,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
 
-For Visual Studio use VSVim with the provided vsvimrc
-
-Also use the plugin 'Peasy Motion' with the following settings:
-
-Allowed jump label characters: tsraneiodhgmplfuc,bjvkwyx.q;z/
-(note this is optimized for Colmak Mod DH)
+- For Visual Studio use VSVim with the provided vsvimrc
+- Also use the plugin 'Peasy Motion' with the following settings:
+- Allowed jump label characters: tsraneiodhgmplfuc,bjvkwyx.q;z/
+    - (note this is optimized for Colmak Mod DH)
+- There is a plugin called 'Smooth Caret' which messes with the VSVim caret - make sure it's disabled

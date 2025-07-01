@@ -20,7 +20,7 @@ set incsearch
 set hlsearch
 
 " ── Reload vimrc ───────────────────────────────────────────────
-map zl :so ~/.vsvimrc<CR>
+map zl :so ~/.vsvimrc
 
 " Unbinds the Space key as it's used as the leader key
 nnoremap <Space> <NOP>
@@ -35,8 +35,8 @@ nnoremap gj j
 nnoremap k gk
 nnoremap gk k
 
-nnoremap <Up> k
-nnoremap <Down> j
+" nnoremap <Up> k
+" nnoremap <Down> j
 
 " ── Easy scrolling - large & fine detail ──────
 nnoremap st <C-d>
