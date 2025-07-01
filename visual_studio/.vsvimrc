@@ -44,10 +44,9 @@ nnoremap <S-h> :vsc Window.PreviousTab<CR>
 nnoremap <leader><leader> :vsc ReSharper.ReSharper_GotoFile<CR>
 
 " " ── File ops ───────────────────────────────────────────────────
-" nnoremap <leader>s :vsc File.SaveAll<CR>
 " nnoremap <leader>x :vsc File.Close<CR>
-" nnoremap <leader>ff :vsc File.OpenFile<CR>
-" nnoremap <leader>fs :vsc File.SaveAll<CR>
+nnoremap <leader>fm :vsc File.OpenFile<CR>
+nnoremap <leader>fs :vsc File.SaveAll<CR>
 " nnoremap <leader>q  :vsc File.Close<CR>
 
 " ── Solution Explorer and Terminal ─────────────────────────────
@@ -118,3 +117,28 @@ nmap s gS:vsc Tools.InvokePeasyMotionTwoCharJump<CR>
 "One char search mode:
 " nmap ;v gS:vsc Tools.InvokePeasyMotionOneCharJump<CR>
 
+
+" ── Resharper ───────────────────────────────────────────────
+map ] :vsc ReSharper.ReSharper_GotoNextMethod<CR>
+map [ :vsc ReSharper.ReSharper_GotoPrevMethod<CR>
+
+map <Space>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
+map <Space>td :vsc ReSharper.ReSharper_UnitTestDebugContext<CR>
+map <Space>ta :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+map <Space>tl :vsc ReSharper.ReSharper_UnitTestSessionRepeatPreviousRun<CR>
+map <Space>tt :vsc ReSharper.ReSharper_ShowUnitTestSessions<CR>
+
+map <Space>e :vsc ReSharper.ReSharper_GotoNextErrorInSolution<CR>
+map <Space>E :vsc ReSharper.ReSharper_GotoPrevErrorInSolution<CR>
+
+
+" ── Build ─────────────────────────────
+
+map <Space>nb :vsc Build.BuildSolution<CR>
+map <Space>nc :vsc Build.Cancel<CR>
+map <Space>nr :vsc Debug.Start<CR>
+map <Space>ns :vsc Debug.StopDebugging<CR>
+
+" ── Shortcuts ─────────────────────────────
+
+map <Space>sg :vsc Tools.FastFind.OpenDocked<CR>
