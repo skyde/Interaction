@@ -2,6 +2,7 @@
 " │        _vsvimrc — LazyVim-style for Visual Studio + C++    │
 " └────────────────────────────────────────────────────────────┘
 
+
 " Leader key setup
 let mapleader = " "
 let maplocalleader = ","
@@ -17,6 +18,9 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+
+" ── Reload vimrc ───────────────────────────────────────────────
+map zl :so ~/.vsvimrc<CR>
 
 " ── Easy scrolling - large & fine detail ──────
 nnoremap st <C-d>
@@ -59,7 +63,7 @@ nnoremap gj :vsc Edit.NextMethod<CR>
 
 " ── Code actions & refactoring ─────────────────────────────────
 nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
-nnoremap <leader>cr :vsc Refactor.Rename<CR>
+nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
 
 " ── Commenting ─────────────────────────────────────────────────
 nnoremap gc :vsc Edit.ToggleComment<CR>
@@ -113,3 +117,4 @@ nmap s gS:vsc Tools.InvokePeasyMotionTwoCharJump<CR>
 
 "One char search mode:
 " nmap ;v gS:vsc Tools.InvokePeasyMotionOneCharJump<CR>
+
