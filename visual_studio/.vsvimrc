@@ -38,11 +38,11 @@ nnoremap <Up> k
 nnoremap <Right> l
 
 " Easy scrolling - Optimized for Colmak Mod DH
-nnoremap st <C-d>
-nnoremap ts <C-u>
-nnoremap tt <C-f>
-nnoremap ss <C-b>
-nnoremap <C-u> 16k
+" nnoremap <leader>st <C-d>
+" nnoremap <leader>ts <C-u>
+" nnoremap <leader>tt <C-f>
+" nnoremap <leader>ss <C-b>
+nnoremap <C-u> 16k<leader>
 nnoremap <C-d> 16j
 
 " Macro Actions
@@ -72,8 +72,8 @@ nnoremap <leader>fs :vsc File.SaveAll<CR>
 " nnoremap <leader>fq  :vsc File.Close<CR>
 
 " Solution Explorer and Terminal
+nnoremap <leader>r :vsc View.Terminal<CR>
 nnoremap <leader>e :vsc View.SolutionExplorer<CR>
-nnoremap <leader>t :vsc View.Terminal<CR>
 
 " UI
 " nnoremap <leader>ul :set relativenumber!<CR>
@@ -96,6 +96,8 @@ nnoremap <leader>go :vsc P4EditVS.OpenInP4V<CR>
 " Code
 nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
 nnoremap <leader>cR :vsc File.Rename<CR>
+" Open the 'quick fix dialog'
+nnoremap <leader>ce :vsc Resharper_AltEnter<CR>
 
 nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
 
