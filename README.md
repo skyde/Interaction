@@ -57,7 +57,7 @@ in the kinesis layout folder qwerty.txt is for Windows & 1_querty.txt is for Mac
 
 # In Progress
 
-Currently working on a map to generic bindings.
+Currently working on a map to generic bindings. This is mostly done but layout images need to be updated
 
 ## New key locations
 
@@ -67,14 +67,13 @@ footpedal down backspace = escape
 footpedal down delete = toggle eye tracker
 
 Mac:
-Ctrl = Cmd? Not sure if I should do this (currently Ctrl is Ctrl)
 Windows Key = Alt (Meta)
 
 ## Layouts
 
 qwerty.txt = Windows
 1_qwerty.txt = Mac
-w_qwerty = Windows In Progress (will swap soon)
+w_qwerty = Backup of old Windows layout - so can easily switch to if needed
 
 ## New bindings
 
@@ -90,7 +89,7 @@ toggle comment - Shift F11
 
 # Mac
 
-Note that you should use the Mac 1_qwerty.txt keybinding with the Kinesis Advantage 2 keyboard in 'Windows' mode as the keys have been manually translated already.
+Note that you should use the Mac 1_qwerty.txt keybinding with the Kinesis Advantage 2 keyboard in 'Windows' mode as the keys have been manually translated already (no need to change the 'mode' of the keyboard at all)
 
 ## Custom Alt Tab app
 
