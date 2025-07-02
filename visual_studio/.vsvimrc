@@ -63,12 +63,18 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <S-l> :vsc Window.NextTab<CR>
 nnoremap <S-h> :vsc Window.PreviousTab<CR>
+" Search file by name
 nnoremap <leader><leader> :vsc ReSharper.ReSharper_GotoFile<CR>
 
 " File ops
+" (f)ile e(x)it
 " nnoremap <leader>fx :vsc File.Close<CR>
+" (f)ile (m)anager
 nnoremap <leader>fm :vsc File.TfsOpenInFileExplorer<CR>
+" (f)ile (s)ave
 nnoremap <leader>fs :vsc File.SaveAll<CR>
+" (f)ile (l)og
+nnoremap <leader>fl :echo @%<CR>
 " nnoremap <leader>fq  :vsc File.Close<CR>
 
 " Solution Explorer and Terminal
