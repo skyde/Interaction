@@ -48,9 +48,13 @@ nnoremap <C-d> 16j
 " Macro Actions
 " Move down 16 lines on Shift+F4 (maps to macro)
 nnoremap <S-F4> <C-u>
+inoremap <S-F4> <C-O><C-u>
+vnoremap <S-F4> <C-C><C-u>gv
 
 " Move up 16 lines on Shift+F6 (maps to macro)
 nnoremap <S-F6> <C-d>
+inoremap <S-F6> <C-O><C-d>
+vnoremap <S-F6> <C-C><C-d>gv
 
 " Visual-mode reselect indenting
 vnoremap < <gv
