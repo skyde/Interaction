@@ -1,13 +1,10 @@
-" ┌────────────────────────────────────────────────────────────┐
-" │        _vsvimrc — LazyVim-style for Visual Studio + C++    │
-" └────────────────────────────────────────────────────────────┘
-
+" .vsvimrc — LazyVim-style for Visual Studio + C++
 
 " Leader key setup
 let mapleader = " "
 let maplocalleader = ","
 
-" ── User Interface ─────────────────────────────────────────────
+" User Interface
 set number
 set relativenumber
 set cursorline
@@ -19,7 +16,7 @@ set smartcase
 set incsearch
 set hlsearch
 
-" ── Reload vimrc ───────────────────────────────────────────────
+" Reload vimrc
 map zl :so ~/.vsvimrc<CR>
 
 " Unbinds the Space key as it's used as the leader key
@@ -28,17 +25,17 @@ nnoremap <Space> <NOP>
 " `Esc` - Remove search highlights
 nnoremap <Esc> :nohl<CR>
 
-" Improves navigation when wrapping
-" by swapping `j` with `gj` and `k` with `gk`
+" Improves navigation when wrapping by swapping `j` with `gj` and `k` with `gk`
 nnoremap j gj
 nnoremap gj j
 nnoremap k gk
 nnoremap gk k
 
+" Using arrow keys due to alternate key layout - make these behave nicer
 nnoremap <Up> k
 nnoremap <Down> j
 
-" ── Easy scrolling - large & fine detail ──────
+" Easy scrolling - Optimized for Colmak Mod DH
 nnoremap st <C-d>
 nnoremap ts <C-u>
 nnoremap tt <C-f>
@@ -46,17 +43,18 @@ nnoremap ss <C-b>
 nnoremap <C-u> 16k
 nnoremap <C-d> 16j
 
+" Macro Actions
 " Move down 16 lines on Shift+F4 (maps to macro)
 nnoremap <S-F4> <C-u>
 
 " Move up 16 lines on Shift+F6 (maps to macro)
 nnoremap <S-F6> <C-d>
 
-" ── Visual-mode reselect indenting ─────────────────────────────
+" Visual-mode reselect indenting
 vnoremap < <gv
 vnoremap > >gv
 
-" ── Window/tab navigation ──────────────────────────────────────
+" Window/tab navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -65,17 +63,17 @@ nnoremap <S-l> :vsc Window.NextTab<CR>
 nnoremap <S-h> :vsc Window.PreviousTab<CR>
 nnoremap <leader><leader> :vsc ReSharper.ReSharper_GotoFile<CR>
 
-" " ── File ops ───────────────────────────────────────────────────
-" nnoremap <leader>x :vsc File.Close<CR>
+" File ops
+" nnoremap <leader>fx :vsc File.Close<CR>
 nnoremap <leader>fm :vsc File.OpenFile<CR>
 nnoremap <leader>fs :vsc File.SaveAll<CR>
-" nnoremap <leader>q  :vsc File.Close<CR>
+" nnoremap <leader>fq  :vsc File.Close<CR>
 
-" ── Solution Explorer and Terminal ─────────────────────────────
+" Solution Explorer and Terminal
 nnoremap <leader>e :vsc View.SolutionExplorer<CR>
 nnoremap <leader>t :vsc View.Terminal<CR>
 
-" ── Goto ────────────────────────────────────────────
+" Goto 
 nnoremap gd :vsc Edit.GoToDefinition<CR>
 nnoremap gi :vsc Edit.GoToImplementation<CR>
 nnoremap gr :vsc Edit.FindAllReferences<CR>
@@ -84,44 +82,33 @@ nnoremap gj :vsc Edit.NextMethod<CR>
 nnoremap gu :vsc ReSharper.ReSharper_GotoUsage<CR>
 nnoremap gc :vsc Edit.ToggleComment<CR>
 
-" ── Git (Version Control) ────────────────────────────────────────────
+" Git (Version Control)
 nnoremap <leader>gd :vsc P4EditVS.Diff<CR>
 nnoremap <leader>go :vsc P4EditVS.OpenInP4V<CR>
 
-" ── Code ─────────────────────────────────
+" Code
 nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
 nnoremap <leader>cR :vsc File.Rename<CR>
 
 nnoremap <leader>. :vsc View.QuickActionsForPosition<CR>
 
-" ── Error & diagnostics navigation ─────────────────────────────
+" Error & diagnostics navigation
 nnoremap <leader>ee :vsc View.ErrorList<CR>
 nnoremap <leader>en :vsc View.NextError<CR>
 nnoremap <leader>ep :vsc View.PreviousError<CR>
 
-" ── Split/Tab Group management ────────────────────────────────
+" Split/Tab Group management
 nnoremap ]b :vsc Window.NextTab<CR>
 nnoremap [b :vsc Window.PreviousTab<CR>
 nnoremap <leader>bd :vsc Window.CloseDocumentWindow<CR>
 nnoremap <leader>bp :vsc Window.PinTab<CR>
 nnoremap <leader>bP :vsc Window.CloseAllButPinned<CR>
 
-" nnoremap <leader>ws :vsc Window.NewVerticalTabGroup<CR>
-" nnoremap <leader>wv :vsc Window.Split<CR>
-" nnoremap <leader>wr :vsc Window.RemoveSplit<CR>
-
-" ── Minimal VS Plugin ────────────────────────────────
-" Window -> Fullscreen
-nnoremap <leader>wf :vsc View.Hidemenu<CR>
-
-" ── Clipboard and backspace support ───────────────────────────
+" Clipboard and backspace support
 set clipboard=unnamed
 set backspace=indent,eol,start
 
-" ── Done ───────────────────────────────────────────────────────
-" Save as _vsvimrc in your user folder. Restart VS to load.
-
-" ── Peasy Motion ───────────────────────────────────────────────
+" Peasy Motion
 " gS prefix is added for ViEmu, no use for VsVim AFAIK.
 "VsVim and ViEmu are disabled until PeasyMotion finishes
 
@@ -149,7 +136,7 @@ nmap s gS:vsc Tools.InvokePeasyMotionTwoCharJump<CR>
 " nmap ;v gS:vsc Tools.InvokePeasyMotionOneCharJump<CR>
 
 
-" ── Resharper ───────────────────────────────────────────────
+" Resharper
 " `]` - Navigate to the next member / type / tag
 " `[` - Navigate to the previous member / type / tag
 noremap ] :vsc ReSharper.ReSharper_GotoNextMember<CR>
@@ -164,18 +151,30 @@ map <Space>tt :vsc ReSharper.ReSharper_ShowUnitTestSessions<CR>
 map <Space>e :vsc ReSharper.ReSharper_GotoNextErrorInSolution<CR>
 map <Space>E :vsc ReSharper.ReSharper_GotoPrevErrorInSolution<CR>
 
+" Jump back through edits
+nmap <C-O> :vsc View.NavigateBackward<CR>
+" Jump forward through ReSharper navigation history
+nmap <C-I> :vsc View.NavigateForward<CR>
 
-" ── Build ─────────────────────────────
+
+" Build
 
 map <Space>nb :vsc Build.BuildSolution<CR>
 map <Space>nc :vsc Build.Cancel<CR>
 map <Space>nr :vsc Debug.Start<CR>
 map <Space>ns :vsc Debug.StopDebugging<CR>
 
-" ── Shortcuts ─────────────────────────────
+" Shortcuts
 
 map <Space>sg :vsc Tools.FastFind.OpenDocked<CR>
 
+" Set fullscreen mode using a plugin called 'Minimal VS Plugin' (the memonic is Window -> Fullscreen)
+" Set fullscreen mode using a plugin called 'Minimal VS Plugin' (the memonic is Window -> Fullscreen)
+nnoremap <leader>wf :vsc View.Hidemenu<CR>
+
+" nnoremap <leader>ws :vsc Window.NewVerticalTabGroup<CR>
+" nnoremap <leader>wv :vsc Window.Split<CR>
+" nnoremap <leader>wr :vsc Window.RemoveSplit<CR>
 
 " `<leader> + w(indow) + p(in)` - Toggle the pin status of the document
 " `<leader> + w(indows) + c(lose) + a(ll)` - Close all unpinned documents
