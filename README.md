@@ -109,11 +109,14 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
 
+TODO: Make the screenshot button map to 'Win Shift S'
+TODO: Make the intl key \ map to a Shift F... Shortcut (match the mac one)
+
 ## Visual Studio
 
 - For Visual Studio use VSVim with the provided vsvimrc
 - Also use the plugin 'Peasy Motion' with the following settings:
 - Allowed jump label characters: tsraneiodhgmplfuc,bjvkwyx.q;z/
-    - (note this is optimized for Colmak Mod DH)
+    - (note this is optimized for Colemak Mod DH)
 - Use a plugin called MinimalVS (https://marketplace.visualstudio.com/items?itemName=pavonism.minimalVS) for nice fullscreen mode
 - There is a plugin called 'Smooth Caret' which messes with the VSVim caret - make sure it's disabled
