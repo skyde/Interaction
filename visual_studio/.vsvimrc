@@ -20,7 +20,7 @@ set incsearch
 set hlsearch
 
 " ── Reload vimrc ───────────────────────────────────────────────
-map zl :so ~/.vsvimrc
+map zl :so ~/.vsvimrc<CR>
 
 " Unbinds the Space key as it's used as the leader key
 nnoremap <Space> <NOP>
@@ -35,8 +35,8 @@ nnoremap gj j
 nnoremap k gk
 nnoremap gk k
 
-" nnoremap <Up> k
-" nnoremap <Down> j
+nnoremap <Up> k
+nnoremap <Down> j
 
 " ── Easy scrolling - large & fine detail ──────
 nnoremap st <C-d>
@@ -109,6 +109,10 @@ nnoremap <leader>bP :vsc Window.CloseAllButPinned<CR>
 " nnoremap <leader>ws :vsc Window.NewVerticalTabGroup<CR>
 " nnoremap <leader>wv :vsc Window.Split<CR>
 " nnoremap <leader>wr :vsc Window.RemoveSplit<CR>
+
+" ── Minimal VS Plugin ────────────────────────────────
+" Window -> Fullscreen
+nnoremap <leader>wf :vsc View.Hidemenu<CR>
 
 " ── Clipboard and backspace support ───────────────────────────
 set clipboard=unnamed
