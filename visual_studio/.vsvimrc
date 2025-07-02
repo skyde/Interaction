@@ -75,6 +75,10 @@ nnoremap <leader>fs :vsc File.SaveAll<CR>
 nnoremap <leader>e :vsc View.SolutionExplorer<CR>
 nnoremap <leader>t :vsc View.Terminal<CR>
 
+" UI
+" nnoremap <leader>ul :set relativenumber!<CR>
+" nnoremap <leader>uL :set number!<CR>
+
 " Goto 
 nnoremap gd :vsc Edit.GoToDefinition<CR>
 nnoremap gi :vsc Edit.GoToImplementation<CR>
@@ -106,6 +110,7 @@ nnoremap [b :vsc Window.PreviousTab<CR>
 nnoremap <leader>bd :vsc Window.CloseDocumentWindow<CR>
 nnoremap <leader>bp :vsc Window.PinTab<CR>
 nnoremap <leader>bP :vsc Window.CloseAllButPinned<CR>
+nnoremap <leader>bo :vsc File.CloseOtherTabs<CR>
 
 " Clipboard and backspace support
 set clipboard=unnamed
