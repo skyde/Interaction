@@ -20,7 +20,7 @@ set hlsearch
 map zl :so ~/.vsvimrc<CR>
 
 " Unbinds the Space key as it's used as the leader key
-nnoremap <Space> <NOP>
+nnoremap <leader> <NOP>
 
 " `Esc` - Remove search highlights
 nnoremap <Esc> :nohl<CR>
@@ -145,14 +145,14 @@ nmap s gS:vsc Tools.InvokePeasyMotionTwoCharJump<CR>
 noremap ] :vsc ReSharper.ReSharper_GotoNextMember<CR>
 noremap [ :vsc ReSharper.ReSharper_GotoPrevMember<CR>
 
-map <Space>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
-map <Space>td :vsc ReSharper.ReSharper_UnitTestDebugContext<CR>
-map <Space>ta :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
-map <Space>tl :vsc ReSharper.ReSharper_UnitTestSessionRepeatPreviousRun<CR>
-map <Space>tt :vsc ReSharper.ReSharper_ShowUnitTestSessions<CR>
+map <leader>tr :vsc ReSharper.ReSharper_UnitTestRunFromContext<CR>
+map <leader>td :vsc ReSharper.ReSharper_UnitTestDebugContext<CR>
+map <leader>ta :vsc ReSharper.ReSharper_UnitTestRunSolution<CR>
+map <leader>tl :vsc ReSharper.ReSharper_UnitTestSessionRepeatPreviousRun<CR>
+map <leader>tt :vsc ReSharper.ReSharper_ShowUnitTestSessions<CR>
 
-map <Space>e :vsc ReSharper.ReSharper_GotoNextErrorInSolution<CR>
-map <Space>E :vsc ReSharper.ReSharper_GotoPrevErrorInSolution<CR>
+map <leader>e :vsc ReSharper.ReSharper_GotoNextErrorInSolution<CR>
+map <leader>E :vsc ReSharper.ReSharper_GotoPrevErrorInSolution<CR>
 
 " Jump back through edits
 nmap <C-O> :vsc View.NavigateBackward<CR>
@@ -160,15 +160,18 @@ nmap <C-O> :vsc View.NavigateBackward<CR>
 nmap <C-I> :vsc View.NavigateForward<CR>
 
 " Build (Make)
-map <Space>mb :vsc Build.BuildSolution<CR>
-map <Space>mc :vsc Build.Cancel<CR>
-map <Space>mr :vsc Debug.Start<CR>
-map <Space>ms :vsc Debug.StopDebugging<CR>
+map <leader>mb :vsc Build.BuildSolution<CR>
+map <leader>mc :vsc Build.Cancel<CR>
+map <leader>mr :vsc Debug.Start<CR>
+map <leader>ms :vsc Debug.StopDebugging<CR>
+
+" TODO: Add a macro which does this. replace ms with the macro and remove mc
+" map <leader>mt :vsc Build.Cancel<CR>:vsc Debug.StopDebugging<CR>
 
 " Fuzzy Find
 
 " Memonic is 'search grep'
-map <Space>sg :vsc Tools.FastFind.OpenDocked<CR>
+map <leader>sg :vsc Tools.FastFind.OpenDocked<CR>
 
 " Window
 
