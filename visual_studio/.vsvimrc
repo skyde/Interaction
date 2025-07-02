@@ -8,7 +8,7 @@ let maplocalleader = ","
 set number
 set relativenumber
 set cursorline
-set scrolloff=5
+set scrolloff=8
 
 " Search
 set ignorecase
@@ -112,8 +112,6 @@ set clipboard=unnamed
 set backspace=indent,eol,start
 
 " Peasy Motion
-" gS prefix is added for ViEmu, no use for VsVim AFAIK.
-"VsVim and ViEmu are disabled until PeasyMotion finishes
 
 "Whole viewport jump-to-word beginning mode:
 " nnoremap ;x gS:vsc Tools.InvokePeasyMotion<CR>
