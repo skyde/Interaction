@@ -66,6 +66,11 @@ nnoremap <C-l> <C-w>l
 " Search file by name
 nnoremap <leader><leader> :vsc ReSharper.ReSharper_GotoFile<CR>
 
+" This is a workaround to an bug where the cursor moves up once on save
+nnoremap <C-s> :vsc Edit.FormatDocument<CR>:vsc File.SaveAll<CR><Right><Right>
+inoremap <C-s> <C-O>:vsc File.SaveAll<CR>
+vnoremap <C-s> <C-C>:vsc Edit.FormatDocument<CR>:vsc File.SaveAll<CR><Right><Right>gv
+
 " File ops
 " (f)ile e(x)it
 " nnoremap <leader>fx :vsc File.Close<CR>
