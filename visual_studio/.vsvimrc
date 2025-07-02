@@ -135,7 +135,7 @@ set backspace=indent,eol,start
 " nnoremap ;x gS:vsc Tools.InvokePeasyMotion<CR>
 
 "Select text from current caret position to desired jump label (fwd and reverse directions supported)
-nmap ;; gS:vsc Tools.InvokePeasyMotionTextSelect<CR>
+" nmap ;; gS:vsc Tools.InvokePeasyMotionTextSelect<CR>
 
 "Jump to word beginning in current line
 " nmap zw gS:vsc Tools.InvokePeasyMotionLineJumpToWordBegining<CR>
