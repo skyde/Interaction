@@ -1,0 +1,15 @@
+# --- Default -----------------
+* text eol=lf
+
+# --- Binary files: never touch line endings --------------------
+*.png  -text
+*.jpg  -text
+*.exe  -text
+*.dll  -text
+*.pdf  -text
+*.afdesign  -text
+
+# --- RLF for certain things ----------------
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
