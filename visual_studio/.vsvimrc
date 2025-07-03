@@ -15,6 +15,7 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+set nostartofline
 
 " Reload vimrc
 map zl :so ~/.vsvimrc<CR>
@@ -26,15 +27,15 @@ nnoremap <leader> <NOP>
 nnoremap <Esc> :nohl<CR>
 
 " Improves navigation when wrapping by swapping `j` with `gj` and `k` with `gk`
-nnoremap j gj
-nnoremap gj j
-nnoremap k gk
-nnoremap gk k
+" nnoremap j gj
+" nnoremap gj j
+" nnoremap k gk
+" nnoremap gk k
 
 " Using arrow keys due to alternate key layout - make these behave nicer
 nnoremap <Left> h
-nnoremap <Down> gj
-nnoremap <Up> gk
+nnoremap <Down> j
+nnoremap <Up> k
 nnoremap <Right> l
 
 " Easy scrolling - Optimized for Colmak Mod DH
