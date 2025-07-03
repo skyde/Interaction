@@ -11,7 +11,6 @@
 [T]>[B]
 [R]>[P]
 [E]>[F]
-[kp-ralt]>[F2]
 [kp-G]>[enter]
 [F]>[T]
 [kp-F]>[pdown]
@@ -37,6 +36,7 @@
 [kp-hyphen]>[4]
 [kpdiv]>[G]
 [kpmult]>[2]
+[scroll]>[vol-]
 [pause]>[vol+]
 [home]>[delete]
 [kp-home]>[S]
@@ -135,7 +135,7 @@
 {kp-pdown}>{speed5}{space}{-lshift}{;}{0}{+lshift}
 {kp-up}>{speed5}{-lshift}{-rctrl}{tab}{+lshift}{+rctrl}
 {kp-down}>{speed5}{-lctrl}{tab}{+lctrl}
-{kp-4}>{speed5}{-lshift}{f9}{+lshift}
+{kp-4}>{speed5}{-lshift}{-lwin}{s}{+lshift}{+lwin}
 {kp-3}>{speed5}{-lshift}{f8}{+lshift}
 {kp-E}>{speed5}{-lshift}{f2}{+lshift}
 {kp-B}>{speed5}{-lshift}{f3}{+lshift}

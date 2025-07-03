@@ -44,6 +44,7 @@
 [kp-hyphen]>[2]
 [kpdiv]>[G]
 [kpmult]>[1]
+[scroll]>[vol-]
 [pause]>[vol+]
 [home]>[delete]
 [kp-home]>[S]
