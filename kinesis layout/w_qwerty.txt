@@ -92,7 +92,6 @@
 {kp-4}>{speed5}{-lshift}{-lwin}{s}{+lshift}{+lwin}
 {kp-5}>{speed5}{-lctrl}{s}{+lctrl}
 {kp-6}>{speed5}{-lshift}{6}{+lshift}
-{intl-\}>{speed5}{-lshift}{f9}{+lshift}
 {numlk}>{speed5}{-rshift}{3}{+rshift}
 {kp=}>{speed5}{-lshift}{,}{+lshift}
 {kpdiv}>{speed5}{-lshift}{.}{+lshift}

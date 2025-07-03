@@ -109,7 +109,10 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
 
-TODO: Make the screenshot button map to 'Win Shift S'
+Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
+Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
+
+TODO: Make the screenshot button map to 'Win Shifddt S'
 TODO: Make the intl key \ map to a Shift F...
 
 ## Visual Studio
