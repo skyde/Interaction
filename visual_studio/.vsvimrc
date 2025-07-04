@@ -108,6 +108,12 @@ nnoremap gh :vsc EditorContextMenus.CodeWindow.ToggleHeaderCodeFile<CR>
 " Git (Version Control)
 nnoremap <leader>gd :vsc P4EditVS.Diff<CR>
 nnoremap <leader>go :vsc P4EditVS.OpenInP4V<CR>
+nnoremap <leader>gr :vsc P4EditVS.RevertIfUnchanged<CR>
+nnoremap <leader>gR :vsc P4EditVS.Revert<CR>
+nnoremap <leader>ga :vsc P4EditVS.MarkForAdd<CR>
+nnoremap <leader>gD :vsc P4EditVS.MarkForDelete<CR>
+nnoremap <leader>gh :vsc P4EditVS.History<CR>
+nnoremap <leader>gt :vsc P4EditVS.TimelapseView<CR>
 
 " Code
 nnoremap <leader>cr :vsc ReSharper.ReSharper_Rename<CR>
