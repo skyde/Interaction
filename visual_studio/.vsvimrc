@@ -80,7 +80,7 @@ vnoremap <C-s> <C-C>:vsc Edit.FormatDocument<CR>:vsc File.SaveAll<CR><Right><Rig
 " (f)ile e(x)it
 " nnoremap <leader>fx :vsc File.Close<CR>
 " (f)ile (m)anager
-nnoremap <leader>fm :vsc File.TfsOpenInFileExplorer<CR>
+nnoremap <leader>fm :vsc File.OpenFile<CR>
 " (f)ile (s)ave
 nnoremap <leader>fs :vsc File.SaveAll<CR>
 " (f)ile (l)og
