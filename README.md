@@ -123,3 +123,9 @@ TODO: Make the intl key \ map to a Shift F...
     - (note this is optimized for Colemak Mod DH)
 - Use a plugin called MinimalVS (https://marketplace.visualstudio.com/items?itemName=pavonism.minimalVS) for nice fullscreen mode
 - There is a plugin called 'Smooth Caret' which messes with the VSVim caret - make sure it's disabled
+
+## Perforce
+
+Ensure you set the set the correct environment variable to allow the diff to work:
+
+P4DIFF="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\devenv.exe" /Diff %1 %2
