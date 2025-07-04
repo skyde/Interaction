@@ -107,6 +107,10 @@ brew install --cask alt-tab
 
 Custom shortcut pressing Shift F9 opens spotlight search, since we don't want to change the original shortcut.
 
+## Fluor
+
+Automatically switches mode of fn keys per program. Required as macros use fn keys to operate - and just useful generally. 
+
 ## Custom Settings
 
 defaults write -g ApplePressAndHoldEnabled -bool false
