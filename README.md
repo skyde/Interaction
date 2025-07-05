@@ -126,7 +126,7 @@ iwr -useb get.scoop.sh | iex
 scoop bucket add extras
 scoop bucket add nerd-fonts
 scoop install git sudo ripgrep fd fzf bat delta less
-scoop install nvim chezmoi
+scoop install llvm nvim chezmoi
 scoop install firacode-nerd-font
 chezmoi init --apply skyde
 chezmoi doctor
