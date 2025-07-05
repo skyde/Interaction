@@ -117,6 +117,17 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 Use this since it's nicer than the default one.
 
+Basic Setup:
+
+iwr -useb get.scoop.sh | iex
+scoop bucket add extras
+scoop bucket add nerd-fonts
+scoop install git sudo ripgrep fd fzf bat delta less
+scoop install nvim chezmoi
+scoop install firacode-nerd-font
+chezmoi init --apply skyde
+chezmoi doctor
+
 # Kinesis Advantage 2
 
 Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
