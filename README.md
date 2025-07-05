@@ -138,7 +138,8 @@ chezmoi doctor
 - Also use the plugin 'Peasy Motion' with the following settings:
 - Allowed jump label characters: tsraneiodhgmplfuc,bjvk
     - (note this is optimized for Colemak Mod DH)
-- Use a plugin called MinimalVS (https://marketplace.visualstudio.com/items?itemName=pavonism.minimalVS) for nice fullscreen mode
+- Use a plugin called MinimalVS for nice fullscreen mode
+    - https://marketplace.visualstudio.com/items?itemName=pavonism.minimalVS
 - There is a plugin called 'Smooth Caret' which messes with the VSVim caret - make sure it's disabled
 ```
 ## Perforce
