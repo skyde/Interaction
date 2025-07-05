@@ -113,6 +113,10 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Set cursor blink rate to 0
 - Set cursor thinkness to 6
 
+# Powershell 7
+
+Use this since it's nicer than the default one.
+
 # Kinesis Advantage 2
 
 Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
