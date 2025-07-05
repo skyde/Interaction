@@ -76,7 +76,7 @@ qwerty.txt = Windows
 w_qwerty = Backup of old Windows layout - so can easily switch to if needed
 
 ## New bindings
-
+```
 build and run - Shift F2
 find class - Shift F3
 scroll up - Shift F4
@@ -86,7 +86,7 @@ goto definition - Shift F8
 toggle spotlight search - Shift F9
 toggle eye mouse - Shift F10
 toggle comment - Shift F11
-
+```
 # Mac
 
 Note that you should use the Mac 1_qwerty.txt keybinding with the Kinesis Advantage 2 keyboard in 'Windows' mode as the keys have been manually translated already (no need to change the 'mode' of the keyboard at all)
@@ -108,17 +108,18 @@ Custom shortcut pressing Shift F9 opens spotlight search, since we don't want to
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
-
+```
 - To get the Alt Tab switcher to work well go to Accessibility -> Visual Effects -> Animation effects & turn them off. Without doing this a move the another tab will not work without waiting a split second.
 - Set cursor blink rate to 0
 - Set cursor thinkness to 6
-
+```
 # Powershell 7
 
 Use this since it's nicer than the default one.
 
 Basic Setup:
 
+```
 iwr -useb get.scoop.sh | iex
 scoop bucket add extras
 scoop bucket add nerd-fonts
@@ -127,23 +128,25 @@ scoop install nvim chezmoi
 scoop install firacode-nerd-font
 chezmoi init --apply skyde
 chezmoi doctor
+```
 
 # Kinesis Advantage 2
 
 Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
+```
 Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
-
+```
 Note: I've had issues using the Mac version of the Kinesis app where it totally corrupts the drive - so just use Windows.
 
 ## Visual Studio
-
+```
 - For Visual Studio use VSVim with the provided vsvimrc
 - Also use the plugin 'Peasy Motion' with the following settings:
 - Allowed jump label characters: tsraneiodhgmplfuc,bjvk
     - (note this is optimized for Colemak Mod DH)
 - Use a plugin called MinimalVS (https://marketplace.visualstudio.com/items?itemName=pavonism.minimalVS) for nice fullscreen mode
 - There is a plugin called 'Smooth Caret' which messes with the VSVim caret - make sure it's disabled
-
+```
 ## Perforce
 
 Ensure you set the set the correct environment variable to allow the diff to work:
