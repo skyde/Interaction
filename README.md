@@ -61,10 +61,12 @@ Currently working on a map to generic bindings. This is mostly done but layout i
 
 ## New key locations
 
+```
 keyboard left backslash = backslash (just normal binding)
 page up = escape
 footpedal down backspace = escape
 footpedal down delete = toggle eye tracker
+```
 
 Mac:
 Windows Key = Alt (Meta)
@@ -76,6 +78,7 @@ qwerty.txt = Windows
 w_qwerty = Backup of old Windows layout - so can easily switch to if needed
 
 ## New bindings
+
 ```
 build and run - Shift F2
 find class - Shift F3
@@ -87,6 +90,7 @@ toggle spotlight search - Shift F9
 toggle eye mouse - Shift F10
 toggle comment - Shift F11
 ```
+
 # Mac
 
 Note that you should use the Mac 1_qwerty.txt keybinding with the Kinesis Advantage 2 keyboard in 'Windows' mode as the keys have been manually translated already (no need to change the 'mode' of the keyboard at all)
@@ -108,6 +112,7 @@ Custom shortcut pressing Shift F9 opens spotlight search, since we don't want to
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
+
 ```
 - Get the Alt Tab switcher to work better
     - Go to Accessibility -> Visual Effects -> Animation effects & turn them off
@@ -115,6 +120,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Set cursor blink rate to 0
 - Set cursor thinkness to 6
 ```
+
 ## Powershell 7
 
 Use this since it's nicer than the default one.
@@ -133,6 +139,7 @@ chezmoi doctor
 ```
 
 ## Visual Studio
+
 ```
 - For Visual Studio use VSVim with the provided vsvimrc
 - Also use the plugin 'Peasy Motion' with the following settings:
@@ -142,9 +149,11 @@ chezmoi doctor
     - https://marketplace.visualstudio.com/items?itemName=pavonism.minimalVS
 - There is a plugin called 'Smooth Caret' which messes with the VSVim caret - make sure it's disabled
 ```
+
 ## Perforce
 
 Ensure you set the set the correct environment variable to allow the diff to work:
+
 ```
 P4DIFF="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\devenv.exe" /Diff %1 %2
 ```
@@ -152,7 +161,9 @@ P4DIFF="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\d
 ## Kinesis Advantage 2
 
 Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
+
 ```
 Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
 ```
+
 Note: I've had issues using the Mac version of the Kinesis app where it totally corrupts the drive - so just use Windows.
