@@ -115,11 +115,11 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 - Set cursor blink rate to 0
 - Set cursor thinkness to 6
 ```
-# Powershell 7
+## Powershell 7
 
 Use this since it's nicer than the default one.
 
-Basic Setup:
+## Basic Setup
 
 ```
 iwr -useb get.scoop.sh | iex
@@ -131,14 +131,6 @@ scoop install firacode-nerd-font
 chezmoi init --apply skyde
 chezmoi doctor
 ```
-
-# Kinesis Advantage 2
-
-Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
-```
-Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
-```
-Note: I've had issues using the Mac version of the Kinesis app where it totally corrupts the drive - so just use Windows.
 
 ## Visual Studio
 ```
@@ -152,5 +144,14 @@ Note: I've had issues using the Mac version of the Kinesis app where it totally 
 ## Perforce
 
 Ensure you set the set the correct environment variable to allow the diff to work:
-
+```
 P4DIFF="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\devenv.exe" /Diff %1 %2
+```
+
+## Kinesis Advantage 2
+
+Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
+```
+Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
+```
+Note: I've had issues using the Mac version of the Kinesis app where it totally corrupts the drive - so just use Windows.
