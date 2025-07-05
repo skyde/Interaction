@@ -109,8 +109,14 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
 
+To get the Alt Tab switcher to work well go to Accessibility -> Visual Effects -> Animation effects & turn them off. Without doing this a move the another tab will not work without waiting a split second.
+
+# Kinesis Advantage 2
+
 Use the command when in .\kinesis layout to copy the files to the Kinesis Advantage 2:
 Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
+
+Note: I've had issues using the Mac version of the Kinesis app where it totally corrupts the drive - so just use Windows.
 
 ## Visual Studio
 
