@@ -109,7 +109,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Windows
 
-To get the Alt Tab switcher to work well go to Accessibility -> Visual Effects -> Animation effects & turn them off. Without doing this a move the another tab will not work without waiting a split second.
+- To get the Alt Tab switcher to work well go to Accessibility -> Visual Effects -> Animation effects & turn them off. Without doing this a move the another tab will not work without waiting a split second.
+- Set cursor blink rate to 0
+- Set cursor thinkness to 6
 
 # Kinesis Advantage 2
 
