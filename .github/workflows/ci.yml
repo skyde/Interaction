@@ -16,16 +16,16 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
-          sudo apt-get install -y neovim lua5.4 jq
+          sudo apt-get install -y neovim lua5.4 jq chezmoi
       - name: Install dependencies (macos)
         if: runner.os == 'macOS'
         run: |
           brew update
-          brew install neovim lua jq
+          brew install neovim lua jq chezmoi
       - name: Install dependencies (windows)
         if: runner.os == 'Windows'
         run: |
-          choco install neovim lua jq -y
+          choco install neovim lua jq chezmoi -y
         shell: pwsh
       - name: Lua syntax check
         run: luac -p hammerspoon/init.lua
@@ -34,6 +34,14 @@ jobs:
         run: |
           grep -v '^\s*//' vscode/keybindings.json | jq empty
           grep -v '^\s*//' vscode/settings.json | jq empty
+        shell: bash
+      - name: Apply dotfiles with chezmoi
+        run: |
+          chezmoi init --source=. --apply
+          if [ -n "$(chezmoi status --porcelain)" ]; then
+            chezmoi status
+            exit 1
+          fi
         shell: bash
       - name: Start Neovim
         run: |

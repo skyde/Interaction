@@ -182,7 +182,9 @@ and performs several checks:
    contains no syntax errors.
 2. **JSON validation** – `jq` validates `vscode/keybindings.json` and
    `vscode/settings.json`.
-3. **Neovim startup** – Neovim is launched headless and the run fails if any
+3. **chezmoi apply** – the repository is applied with `chezmoi` from the
+   checked-out branch and the run fails if any files remain pending.
+4. **Neovim startup** – Neovim is launched headless and the run fails if any
    errors are printed during startup.
 
 Package installation is handled with the platform package manager:
@@ -191,4 +193,5 @@ Package installation is handled with the platform package manager:
 - **macOS** – `brew`
 - **Windows** – `choco`
 
-If any step fails the CI job exits with an error.
+If any step fails the CI job exits with an error. `chezmoi` and Neovim are
+installed via each platform's package manager alongside Lua and `jq`.
