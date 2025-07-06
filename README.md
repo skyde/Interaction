@@ -171,3 +171,27 @@ Copy-Item -Path .\* -Destination 'D:\active\' -Recurse -Force -Verbose
 ```
 
 Note: I've had issues using the Mac version of the Kinesis app where it totally corrupts the drive - so just use Windows.
+
+## Continuous Integration
+
+The repository includes a GitHub Actions workflow that checks the configuration
+files on every push or pull request. The job runs on Linux, macOS and Windows
+and performs several checks:
+
+1. **Lua syntax** – `hammerspoon/init.lua` is compiled with `luac` to ensure it
+   contains no syntax errors.
+2. **JSON validation** – `jq` validates `vscode/keybindings.json` and
+   `vscode/settings.json`.
+3. **chezmoi apply** – the repository is applied with `chezmoi` from the
+   checked-out branch and the run fails if any files remain pending.
+4. **Neovim startup** – Neovim is launched headless and the run fails if any
+   errors are printed during startup.
+
+Package installation is handled with the platform package manager:
+
+- **Ubuntu** – `apt`
+- **macOS** – `brew`
+- **Windows** – `choco`
+
+If any step fails the CI job exits with an error. `chezmoi` and Neovim are
+installed via each platform's package manager alongside Lua and `jq`.
