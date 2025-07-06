@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies (ubuntu)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y neovim lua5.4 jq
+      - name: Install dependencies (macos)
+        if: runner.os == 'macOS'
+        run: |
+          brew update
+          brew install neovim lua jq
+      - name: Install dependencies (windows)
+        if: runner.os == 'Windows'
+        run: |
+          choco install neovim lua jq -y
+        shell: pwsh
+      - name: Lua syntax check
+        run: luac -p hammerspoon/init.lua
+        shell: bash
+      - name: Validate JSON files
+        run: |
+          grep -v '^\s*//' vscode/keybindings.json | jq empty
+          grep -v '^\s*//' vscode/settings.json | jq empty
+        shell: bash
+      - name: Start Neovim
+        run: |
+          nvim --headless +q 2>nvim.log
+          if [ -s nvim.log ]; then
+            cat nvim.log
+            exit 1
+          fi
+        shell: bash
