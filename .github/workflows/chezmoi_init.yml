@@ -1,0 +1,26 @@
+name: chezmoi init dry run
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  init:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install chezmoi
+        shell: bash
+        run: |
+          sh -c "$(curl -fsLS get.chezmoi.io)" -- -b "$HOME/bin"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+      - name: Validate chezmoi init (dry run)
+        shell: bash
+        run: |
+          chezmoi init https://github.com/${{ github.repository }} --branch "$GITHUB_REF_NAME" --apply --dry-run
